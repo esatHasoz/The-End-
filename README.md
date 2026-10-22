@@ -1,4 +1,4 @@
-# The-End--
+# The-End-
 # Explainable AI for Network Intrusion Detection
 
 **ENS 491/492 Graduation Project — Sabancı University (FENS)**
