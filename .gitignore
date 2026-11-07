@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+smoke_out/
+data/
+*.parquet
+.DS_Store
