@@ -1,40 +1,59 @@
-2. EDA planı
-Ortak şablon (6 sette de aynı adımlar ve aynı çıktı formatı)
-#	Adım	Çıktı
-0	Kayıt: kaynak URL, versiyon, lisans, dosya boyutları, checksum	data_card.md
-1	Yükleme: satır/sütun sayısı, dtype’lar, bellek kullanımı. Parquet’e çevir (CSV çok yavaş)	raw.parquet
-2	Veri kalitesi: NaN, inf (CICIDS2017'nin Flow Bytes/s sütununda var), negatif değerler, sabit sütunlar, birebir aynı sütunlar, duplicate satırlar, çelişkili etiketler (feature’lar aynı, label farklı)	Kalite tablosu
-3	Etiket dağılımı: sınıf başına sayı, imbalance oranı, saldırıların zaman çizelgesi (sınıf × zaman grafiği)	Bar chart ve timeline
-4	Identifier/leakage listesi: Flow ID, IP’ler, timestamp’ler çıkarılacak. Port için ekip kararı lazım (aşağıda)	drop_cols.json
-5	Feature dağılımları: sınıf bazında özet istatistik, log-ölçekli histogramlar, skewness	Grafikler
-6	Korelasyon/redundancy: Spearman, |r| > 0.95 olan gruplar. Remove-and-retrain’de korele feature’lar birlikte çıkarılacağı için gerekli	Korele grup listesi
-7	Tek feature AUROC taraması: her feature tek başına sınıfları ne kadar ayırıyor (binary ve sınıf-vs-benign). > 0.95 olanlar şüpheli	shortcut_candidates.csv (O3 deliverable’ı)
-8	Sınıf bazında zamana göre split: her sınıfta zaman içinde yeterli örnek var mı kontrol et, 70/15/15 indeksleri üret	splits.parquet
-9	Sampling planı: split’ten sonra sınıf başına üst sınır koy	Sampling config
+# EDA Planı (ENS 491, Hafta 3–4)
 
-Her veri seti için çıktı: 1 notebook, 1–2 sayfalık özet (interim rapora doğrudan girecek), temizlenmiş parquet, aday shortcut CSV’si ve split dosyası.
+Amaç: 6 veri setinin hepsinde aynı adımları, aynı kodla ve aynı çıktı formatıyla uygulamak. Böylece farklar koddan değil veriden gelir ve sonuçlar tek tabloda karşılaştırılabilir.
 
-Veri setine özel ek işler
+## Ortak kurallar
 
-Selim (Group A):
+- Fonksiyonlar `src/eda/` içinde durur. Notebook'lar sadece bu fonksiyonları çağırır, şablonun kopyasını içermez.
+- Esad şablonu 1–2 gün içinde repoya koyar. Önce NF3-UNSW-NB15 (en küçük set) üzerinde test edilir, PR ile main'e girer.
+- Şablon birleştikten sonra dondurulur. Değişiklik gerekirse PR açılır ve herkes yeni sürümle yeniden çalıştırır.
+- Seed, bölme oranları, kimlik sütunu listeleri ve örnekleme sınırları tek bir `config/` dosyasında tutulur. Sütun adları özellik ailesine göre (CICFlowMeter, NetFlow v3) config'te ayrılır, kod aynı kalır.
+- Test seti bölmeden hemen sonra ayrılır. Hiçbir karar test verisine bakılarak verilmez.
 
-İki versiyon arasındaki fark: flow sayısı, sınıf bazında değişen etiketler, “Attempted” sınıfı, TCP appendix flow’ları ne kadar yer tutuyor.
-Orijinal setteki bilinen sorunlar: duplicate sütun (Fwd Header Length iki kez geçiyor) ve inf değerleri.
-Literatürdeki artefaktları feature düzeyinde listele. RQ2'nin ground truth’u bu liste olacak.
+## Adımlar (6 sette aynı)
 
-Esad (Group B):
+| # | Adım | Çıktı |
+|---|------|-------|
+| 0 | Kayıt: kaynak URL, versiyon, lisans, dosya boyutları, checksum | `data_card.md` |
+| 1 | Yükleme: satır/sütun sayısı, dtype'lar, bellek kullanımı. Parquet'e çevir | `raw.parquet` |
+| 2 | Veri kalitesi: NaN, inf (CICIDS2017 `Flow Bytes/s`), negatif değerler, sabit sütunlar, birebir aynı sütunlar, duplicate satırlar, çelişkili etiketler (özellikler aynı, etiket farklı) | Kalite tablosu |
+| 3 | Etiket dağılımı: sınıf başına sayı, imbalance oranı, sınıf × zaman grafiği | Bar chart ve timeline |
+| 4 | Kimlik/sızıntı listesi: Flow ID, IP'ler, timestamp'ler çıkarılır. Port özellikleri tutulur ve shortcut adayı olarak işaretlenir (config'te bayrak: portlu ve portsuz varyant) | `drop_cols.json` |
+| 5 | Zaman tabanlı bölme (sınıf bazında, 70/15/15): her sınıfta zaman içinde yeterli örnek var mı kontrol edilir, bölme indeksleri üretilir. Yedek plan: bir saldırı tek zaman penceresine sıkışmışsa pencere zaman bloklarına bölünür ve bloklar arasına boşluk konur | `splits.parquet` |
+| 6 | Özellik dağılımları (sadece train): sınıf bazında özet istatistik, log ölçekli histogramlar, skewness | Grafikler |
+| 7 | Korelasyon/redundancy (sadece train, büyük setlerde örnek üzerinde): Spearman, \|r\| > 0.95 gruplar. Remove-and-retrain'de korele özellikler birlikte çıkarılır | Korele grup listesi |
+| 8 | Tek özellik AUROC taraması (sadece train): her özellik tek başına sınıfları ne kadar ayırıyor (binary ve sınıf-vs-benign). > 0.95 şüpheli | `shortcut_candidates.csv` (O3 çıktısı) |
+| 9 | Sahte özellik enjeksiyonu: her veri setinin bilinen bir sahte özellik içeren varyantı üretilir (Ahmet + Selim) | Enjekte varyant dosyaları |
+| 10 | Örnekleme planı: sınıf başına üst sınır sadece train ve validation'a uygulanır. Test seti doğal sınıf oranında kalır, metrikler böyle raporlanır | Sampling config |
 
-NF-v3'teki FLOW_START/END_MILLISECONDS gibi zaman sütunlarını drop listesine ekle.
-CIC2018 çok büyük. Tamamını yüklemeye çalışma: chunk’lar halinde ya da polars/pyarrow ile oku, sampling’i erken planla.
-Saldırı eşleme tablosu: CIC2018 ↔ UNSW (UNSW’nin Exploits, Fuzzers gibi sınıflarının karşılığı yok) ve corrected CICIDS2017 ↔ 5G-NIDD ↔ TII-SSRC-23 (DoS/DDoS, scan, brute force). Cross-dataset testlerinin kapsamını bu tablo belirleyecek.
+Duplicate ve çelişkili etiket temizliği (adım 2) bölmeden önce yapılır. Dağılım, korelasyon ve AUROC kararları (6–8) bölmeden sonra, sadece train üzerinde alınır.
 
-Ahmet (Group C):
+Her veri set için çıktı: 1 notebook, 1–2 sayfalık özet (interim rapora girecek), temizlenmiş parquet, aday shortcut CSV'si, split dosyası.
 
-Önce tek bir pcap üzerinde uçtan uca deneme: çıkarım ve etiketleme.
-5G-NIDD için GTP’si çıkarılmış capture’ları kullan.
-Sanity check: yeniden çıkarılan flow’ların sınıf başına sayılarını yayınlanmış feature dosyalarıyla karşılaştır. Fark büyükse etiketlemede hata var demektir.
-Corrected CICIDS2017 ile birebir aynı CICFlowMeter build’ini kullan, Selim’le koordine edin. Aksi halde feature uzayları uyuşmaz.
-Ekip olarak baştan karar vermeniz gerekenler
-Port feature’ları: Drop mu edilecek, yoksa shortcut adayı olarak mı tutulacak? Benim önerim tutmak ve aday olarak işaretlemek. Böylece RQ1 için doğal bir test olur.
-Binary mi, multi-class mı: EDA ikisini de raporlasın, ama sınıf isimleri ortak bir taksonomiye map’lensin.
-Ortak araçlar: Python sürümü, pandas mı polars mı, klasör yapısı, notebook isimlendirmesi. Esad şablonu 1–2 gün içinde repo’ya koymazsa diğer ikisi kendi formatlarında başlar ve sonradan birleştirmek zorlaşır.
+## Veri setine özel işler
+
+### Ahmet: Grup A (CICIDS2017 orijinal ve düzeltilmiş)
+- İki sürüm arası fark: flow sayısı, sınıf bazında değişen etiketler, "Attempted" sınıfı, TCP appendix flow'larının payı.
+- Orijinal setteki bilinen sorunlar: tekrarlayan sütun (`Fwd Header Length` iki kez geçiyor) ve inf değerleri.
+- Literatürdeki artefaktları özellik düzeyinde listele. RQ2'nin referans listesi bu olacak.
+- Düzeltilmiş CICIDS2017 için kullanılan CICFlowMeter build'ini kaydet, Selim'e ilet.
+
+### Esad: Grup B (NF3-CSE-CIC-IDS2018 ve NF3-UNSW-NB15)
+- NF3'teki `FLOW_START_MILLISECONDS` ve `FLOW_END_MILLISECONDS` gibi zaman sütunlarını drop listesine ekle.
+- CIC2018 çok büyük: tamamını yüklemeye çalışma, chunk veya polars/pyarrow ile oku, örneklemeyi erken planla.
+- Saldırı eşleme tablosu: CIC2018 ↔ UNSW (Exploits, Fuzzers gibi UNSW sınıflarının karşılığı yok) ve düzeltilmiş CICIDS2017 ↔ 5G-NIDD ↔ TII-SSRC-23 (DoS/DDoS, scan, brute force). Cross-dataset testlerin kapsamı bu tabloyla belirlenir.
+- Ortak EDA şablonunu yazan kişi olarak şablonu repoya koy, dondurma tarihini ilan et.
+
+### Selim: Grup C (5G-NIDD ve TII-SSRC-23)
+- Önce tek bir pcap üzerinde uçtan uca deneme: akış çıkarma ve etiketleme.
+- 5G-NIDD için GTP'si çıkarılmış capture'ları kullan.
+- Sanity check: yeniden çıkarılan flow'ların sınıf başına sayılarını yayınlanmış özellik dosyalarıyla karşılaştır. Fark büyükse etiketlemede hata var demektir.
+- Düzeltilmiş CICIDS2017 ile birebir aynı CICFlowMeter build'ini kullan, Ahmet'le koordine et. Aksi halde özellik uzayları uyuşmaz.
+- Bu grup en ağır iştir. Akış çıkarma gecikirse diğer gruplardan yardım istenir.
+
+## Ekip olarak baştan verilecek kararlar
+
+1. **Port özellikleri:** tutulur ve shortcut adayı olarak işaretlenir (RQ1 için doğal test). Portlu ve portsuz varyant karşılaştırılır.
+2. **Binary mi, multi-class mı:** EDA ikisini de raporlar, sınıf isimleri ortak bir taksonomiye eşlenir.
+3. **Ortak araçlar:** Python sürümü, pandas mı polars mı, klasör yapısı, notebook isimlendirmesi. Şablon repoya girmeden bu üçü sabitlenir.
+4. **Zaman bölmesi yedek planı:** bir saldırının tamamı tek zaman penceresine sıkışırsa ne yapılacağı (adım 5'teki blok yaklaşımı) şablondan önce kararlaştırılır.
