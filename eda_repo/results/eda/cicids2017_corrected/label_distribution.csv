@@ -1,0 +1,26 @@
+class,is_attack,count_raw,count,removed,pct,imbalance_vs_largest
+BENIGN,False,1657693,1641843,15850,78.7481,1.0
+PortScan,True,159151,159144,7,7.6331,10.32
+DoS Hulk,True,158469,158469,0,7.6007,10.36
+DDoS,True,95123,95123,0,4.5624,17.26
+DoS GoldenEye,True,7567,7567,0,0.3629,216.97
+DoS slowloris,True,4001,3974,27,0.1906,413.15
+FTP-Patator,True,3973,3973,0,0.1906,413.25
+DoS Slowhttptest - Attempted,True,3369,3369,0,0.1616,487.34
+SSH-Patator,True,2980,2980,0,0.1429,550.95
+DoS Slowhttptest,True,1742,1742,0,0.0836,942.5
+DoS slowloris - Attempted,True,1731,1731,0,0.083,948.49
+Bot - Attempted,True,1470,1469,1,0.0705,1117.66
+Web Attack - Brute Force - Attempted,True,1214,1214,0,0.0582,1352.42
+Bot,True,738,738,0,0.0354,2224.72
+Web Attack - XSS - Attempted,True,652,652,0,0.0313,2518.16
+DoS Hulk - Attempted,True,593,593,0,0.0284,2768.71
+Web Attack - Brute Force,True,151,151,0,0.0072,10873.13
+DoS GoldenEye - Attempted,True,80,80,0,0.0038,20523.04
+Infiltration,True,32,32,0,0.0015,51307.59
+Web Attack - XSS,True,27,27,0,0.0013,60809.0
+Infiltration - Attempted,True,16,16,0,0.0008,102615.19
+Web Attack - Sql Injection,True,12,12,0,0.0006,136820.25
+Heartbleed,True,11,11,0,0.0005,149258.45
+FTP-Patator - Attempted,True,11,11,0,0.0005,149258.45
+SSH-Patator - Attempted,True,8,8,0,0.0004,205230.38

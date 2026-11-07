@@ -1,0 +1,69 @@
+{
+  "train": {
+    "cap_per_class": 200000,
+    "rows_before": 1968656,
+    "rows_after": 584990,
+    "per_class_after": {
+      "BENIGN": 200000,
+      "DoS Hulk": 156441,
+      "PortScan": 111251,
+      "DDoS": 89618,
+      "DoS GoldenEye": 7205,
+      "FTP-Patator": 5556,
+      "SSH-Patator": 4127,
+      "DoS slowloris": 4038,
+      "DoS Slowhttptest": 3849,
+      "Bot": 1376,
+      "Web Attack - Brute Force": 1054,
+      "Web Attack - XSS": 456,
+      "Infiltration": 10,
+      "Web Attack - Sql Injection": 6,
+      "Heartbleed": 3
+    }
+  },
+  "val": {
+    "cap_per_class": 50000,
+    "rows_before": 421864,
+    "rows_after": 132507,
+    "per_class_after": {
+      "BENIGN": 50000,
+      "DoS Hulk": 33523,
+      "PortScan": 23839,
+      "DDoS": 19204,
+      "DoS GoldenEye": 1543,
+      "FTP-Patator": 1190,
+      "SSH-Patator": 884,
+      "DoS slowloris": 865,
+      "DoS Slowhttptest": 824,
+      "Bot": 294,
+      "Web Attack - Brute Force": 226,
+      "Web Attack - XSS": 97,
+      "Infiltration": 11,
+      "Web Attack - Sql Injection": 5,
+      "Heartbleed": 2
+    }
+  },
+  "test": {
+    "cap_per_class": null,
+    "rows_before": 393772,
+    "rows_after": 393772,
+    "per_class_after": {
+      "BENIGN": 316735,
+      "DoS Hulk": 31290,
+      "PortScan": 22252,
+      "DDoS": 17925,
+      "DoS GoldenEye": 1443,
+      "FTP-Patator": 1114,
+      "SSH-Patator": 828,
+      "DoS slowloris": 810,
+      "DoS Slowhttptest": 772,
+      "Bot": 278,
+      "Web Attack - Brute Force": 213,
+      "Web Attack - XSS": 93,
+      "Infiltration": 11,
+      "Web Attack - Sql Injection": 6,
+      "Heartbleed": 2
+    }
+  },
+  "note": "test is not sampled; report test metrics on its natural class ratio"
+}

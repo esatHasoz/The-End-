@@ -1,0 +1,16 @@
+class,n,train,val,test,gap,method,ok
+BENIGN,2262380,1583666,339357,316735,22622,time_order,True
+Bot,1966,1376,294,278,18,time_order,True
+DDoS,128027,89618,19204,17925,1280,time_order,True
+DoS GoldenEye,10293,7205,1543,1443,102,time_order,True
+DoS Hulk,223488,156441,33523,31290,2234,time_order,True
+DoS Slowhttptest,5499,3849,824,772,54,time_order,True
+DoS slowloris,5769,4038,865,810,56,time_order,True
+FTP-Patator,7938,5556,1190,1114,78,time_order,True
+Heartbleed,11,3,2,2,4,time_blocks,False
+Infiltration,36,10,11,11,4,time_blocks,False
+PortScan,158930,111251,23839,22252,1588,time_order,True
+SSH-Patator,5897,4127,884,828,58,time_order,True
+Web Attack - Brute Force,1507,1054,226,213,14,time_order,True
+Web Attack - Sql Injection,21,6,5,6,4,time_blocks,False
+Web Attack - XSS,652,456,97,93,6,time_order,True

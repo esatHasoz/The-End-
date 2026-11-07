@@ -1,0 +1,80 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-07T14:21:26+00:00",
+  "args": {
+    "dataset": "cicids2017_corrected",
+    "name": "cicids2017_corrected",
+    "family": "cicflowmeter",
+    "inputs": [
+      "data/raw/cicids2017_corrected/Friday-WorkingHours.csv",
+      "data/raw/cicids2017_corrected/Monday-WorkingHours.csv",
+      "data/raw/cicids2017_corrected/Thursday-WorkingHours.csv",
+      "data/raw/cicids2017_corrected/Tuesday-WorkingHours.csv",
+      "data/raw/cicids2017_corrected/Wednesday-WorkingHours.csv"
+    ],
+    "out": "results/eda/cicids2017_corrected",
+    "source_url": "",
+    "version": "Engelen et al. 2021 (WTMC) corrected CICIDS2017",
+    "license": "see dataset page; cite Engelen et al. 2021",
+    "label_col": "Label",
+    "time_col": "Timestamp",
+    "benign_label": "BENIGN",
+    "ampm_fix": "auto",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [],
+    "no_inject": false,
+    "inject": false,
+    "notes": "Contains '- Attempted' classes. Default --attempted keep treats them as separate classes (attack in binary). Record the CICFlowMeter build used and pass it to Selim.",
+    "group": "A",
+    "owner": "Ahmet"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "text_inferred_format",
+    "ampm_fix": "auto",
+    "ampm_shifted_rows": 0,
+    "ampm_applied": false
+  },
+  "warnings": [
+    "9,144 '- Attempted' rows, policy: keep.",
+    "Classes with fewer than 50 rows in a split: DoS GoldenEye - Attempted, FTP-Patator - Attempted, Heartbleed, Infiltration, Infiltration - Attempted, SSH-Patator - Attempted, Web Attack - Brute Force, Web Attack - Sql Injection, Web Attack - XSS."
+  ],
+  "python": "3.12.0",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "runtime_sec": 162.6
+}
