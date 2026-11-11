@@ -1,0 +1,69 @@
+{
+  "train": {
+    "cap_per_class": 200000,
+    "rows_before": 1322782,
+    "rows_after": 358379,
+    "per_class_after": {
+      "Benign": 200000,
+      "DDOS_attack-HOIC": 72372,
+      "DDoS_attacks-LOIC-HTTP": 19991,
+      "Bot": 13221,
+      "SSH-Bruteforce": 12542,
+      "Infilteration": 12389,
+      "FTP-BruteForce": 9332,
+      "DoS_attacks-Hulk": 7004,
+      "DoS_attacks-SlowHTTPTest": 5357,
+      "DoS_attacks-GoldenEye": 4066,
+      "DoS_attacks-Slowloris": 1783,
+      "DDOS_attack-LOIC-UDP": 221,
+      "Brute_Force_-Web": 91,
+      "Brute_Force_-XSS": 5,
+      "SQL_Injection": 5
+    }
+  },
+  "val": {
+    "cap_per_class": 50000,
+    "rows_before": 283455,
+    "rows_after": 83940,
+    "per_class_after": {
+      "Benign": 50000,
+      "DDOS_attack-HOIC": 15508,
+      "DDoS_attacks-LOIC-HTTP": 4283,
+      "Bot": 2833,
+      "SSH-Bruteforce": 2687,
+      "Infilteration": 2654,
+      "FTP-BruteForce": 1999,
+      "DoS_attacks-Hulk": 1500,
+      "DoS_attacks-SlowHTTPTest": 1148,
+      "DoS_attacks-GoldenEye": 871,
+      "DoS_attacks-Slowloris": 382,
+      "DDOS_attack-LOIC-UDP": 46,
+      "Brute_Force_-Web": 19,
+      "SQL_Injection": 6,
+      "Brute_Force_-XSS": 4
+    }
+  },
+  "test": {
+    "cap_per_class": null,
+    "rows_before": 264584,
+    "rows_after": 264584,
+    "per_class_after": {
+      "Benign": 232882,
+      "DDOS_attack-HOIC": 14477,
+      "DDoS_attacks-LOIC-HTTP": 4001,
+      "Bot": 2646,
+      "SSH-Bruteforce": 2511,
+      "Infilteration": 2480,
+      "FTP-BruteForce": 1869,
+      "DoS_attacks-Hulk": 1402,
+      "DoS_attacks-SlowHTTPTest": 1073,
+      "DoS_attacks-GoldenEye": 814,
+      "DoS_attacks-Slowloris": 359,
+      "DDOS_attack-LOIC-UDP": 47,
+      "Brute_Force_-Web": 16,
+      "SQL_Injection": 4,
+      "Brute_Force_-XSS": 3
+    }
+  },
+  "note": "test is not sampled; report test metrics on its natural class ratio"
+}

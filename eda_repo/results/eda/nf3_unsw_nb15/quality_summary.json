@@ -1,0 +1,37 @@
+{
+  "rows": 2365424,
+  "duplicate_rows": 225997,
+  "conflicting_rows": 3647,
+  "conflicting_rows_per_class": {
+    "Generic": 2183,
+    "Fuzzers": 595,
+    "Exploits": 378,
+    "Backdoor": 282,
+    "Reconnaissance": 146,
+    "DoS": 48,
+    "Shellcode": 14,
+    "Worms": 1
+  },
+  "duplicate_rows_per_class": {
+    "Benign": 213271,
+    "Generic": 11585,
+    "Fuzzers": 772,
+    "Reconnaissance": 196,
+    "Exploits": 97,
+    "Backdoor": 38,
+    "DoS": 35,
+    "Shellcode": 3
+  },
+  "columns_with_nan": [
+    "SRC_TO_DST_SECOND_BYTES"
+  ],
+  "columns_with_inf": [
+    "SRC_TO_DST_SECOND_BYTES",
+    "DST_TO_SRC_SECOND_BYTES"
+  ],
+  "columns_with_negative": [],
+  "constant_columns": [],
+  "duplicate_columns": {
+    "MAX_IP_PKT_LEN": "LONGEST_FLOW_PKT"
+  }
+}

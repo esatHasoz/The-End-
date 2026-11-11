@@ -1,0 +1,16 @@
+class,is_attack,count_raw,count,removed,pct,imbalance_vs_largest
+Benign,False,1751703,1663434,88269,88.0246,1.0
+DDOS_attack-HOIC,True,103466,103389,77,5.4711,16.09
+DDoS_attacks-LOIC-HTTP,True,28616,28559,57,1.5113,58.25
+Bot,True,20487,18888,1599,0.9995,88.07
+SSH-Bruteforce,True,18883,17918,965,0.9482,92.84
+Infilteration,True,18740,17699,1041,0.9366,93.98
+FTP-BruteForce,True,38682,13332,25350,0.7055,124.77
+DoS_attacks-Hulk,True,10006,10006,0,0.5295,166.24
+DoS_attacks-SlowHTTPTest,True,10461,7654,2807,0.405,217.33
+DoS_attacks-GoldenEye,True,6094,5809,285,0.3074,286.35
+DoS_attacks-Slowloris,True,3572,2548,1024,0.1348,652.84
+DDOS_attack-LOIC-UDP,True,344,328,16,0.0174,5071.45
+Brute_Force_-Web,True,152,138,14,0.0073,12053.87
+SQL_Injection,True,39,19,20,0.001,87549.16
+Brute_Force_-XSS,True,46,16,30,0.0008,103964.62

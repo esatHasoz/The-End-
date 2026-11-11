@@ -1,0 +1,74 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-07T13:24:25+00:00",
+  "args": {
+    "dataset": "nf3_unsw_nb15",
+    "name": "nf3_unsw_nb15",
+    "family": "netflow_v3",
+    "inputs": [
+      "../f7546561558c07c5_NFV3DATA-A11964_A11964/data/NF-UNSW-NB15-v3.csv"
+    ],
+    "out": "../results/eda/nf3_unsw_nb15",
+    "source_url": "https://rdm.uq.edu.au/files/abd2f5d8-e268-4ff0-84fb-f2f7b3ca3e8f",
+    "version": "NetFlow v3 (Luay et al. 2025)",
+    "license": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "label_col": "Attack",
+    "time_col": "FLOW_START_MILLISECONDS",
+    "benign_label": "Benign",
+    "ampm_fix": "off",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [],
+    "no_inject": false,
+    "inject": false,
+    "notes": "About 2.4M flows. Smallest set; template is tested on it first.",
+    "group": "B",
+    "owner": "Esad"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "epoch_ms",
+    "ampm_fix": "off",
+    "ampm_shifted_rows": 0
+  },
+  "warnings": [
+    "Classes with fewer than 50 rows in a split: Worms."
+  ],
+  "python": "3.10.12",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "runtime_sec": 105.6
+}

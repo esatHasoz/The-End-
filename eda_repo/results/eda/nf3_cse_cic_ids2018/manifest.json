@@ -1,0 +1,74 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-07T13:47:08+00:00",
+  "args": {
+    "dataset": "nf3_cse_cic_ids2018",
+    "name": "nf3_cse_cic_ids2018",
+    "family": "netflow_v3",
+    "inputs": [
+      "../data/interim/NF-CICIDS2018-v3_frac0.1_seed42.csv"
+    ],
+    "out": "../results/eda/nf3_cse_cic_ids2018",
+    "source_url": "https://rdm.uq.edu.au/files/4ac221b1-6bd6-42b1-bdf7-03f4fc7efb22",
+    "version": "NetFlow v3 (Luay et al. 2025)",
+    "license": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "label_col": "Attack",
+    "time_col": "FLOW_START_MILLISECONDS",
+    "benign_label": "Benign",
+    "ampm_fix": "off",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [],
+    "no_inject": false,
+    "inject": false,
+    "notes": "About 20M flows. Start with --frac 0.25 on a 16 GB machine.",
+    "group": "B",
+    "owner": "Esad"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "epoch_ms",
+    "ampm_fix": "off",
+    "ampm_shifted_rows": 0
+  },
+  "warnings": [
+    "Classes with fewer than 50 rows in a split: Brute_Force_-Web, Brute_Force_-XSS, DDOS_attack-LOIC-UDP, SQL_Injection."
+  ],
+  "python": "3.10.12",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "runtime_sec": 96.1
+}

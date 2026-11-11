@@ -1,0 +1,11 @@
+class,is_attack,count_raw,count,removed,pct,imbalance_vs_largest
+Benign,False,2237731,2024460,213271,94.6263,1.0
+Exploits,True,42748,42651,97,1.9936,47.47
+Fuzzers,True,33816,33044,772,1.5445,61.27
+Reconnaissance,True,17074,16878,196,0.7889,119.95
+Generic,True,19651,8066,11585,0.377,250.99
+DoS,True,5980,5945,35,0.2779,340.53
+Backdoor,True,4659,4621,38,0.216,438.1
+Shellcode,True,2381,2378,3,0.1112,851.33
+Analysis,True,1226,1226,0,0.0573,1651.27
+Worms,True,158,158,0,0.0074,12813.04

@@ -1,0 +1,11 @@
+class,n,train,val,test,gap,method,ok
+Analysis,1226,858,183,173,12,time_order,True
+Backdoor,4621,3234,693,648,46,time_order,True
+Benign,2024460,1417122,303669,283425,20244,time_order,True
+DoS,5945,4161,891,835,58,time_order,True
+Exploits,42651,29855,6397,5973,426,time_order,True
+Fuzzers,33044,23130,4956,4628,330,time_order,True
+Generic,8066,5646,1209,1131,80,time_order,True
+Reconnaissance,16878,11814,2531,2365,168,time_order,True
+Shellcode,2378,1664,356,336,22,time_order,True
+Worms,158,109,19,18,12,time_blocks,False

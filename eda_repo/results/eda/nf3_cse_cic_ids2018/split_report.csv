@@ -1,0 +1,16 @@
+class,n,train,val,test,gap,method,ok
+Benign,1663434,1164403,249515,232882,16634,time_order,True
+Bot,18888,13221,2833,2646,188,time_order,True
+Brute_Force_-Web,138,91,19,16,12,time_blocks,False
+Brute_Force_-XSS,16,5,4,3,4,time_blocks,False
+DDOS_attack-HOIC,103389,72372,15508,14477,1032,time_order,True
+DDOS_attack-LOIC-UDP,328,221,46,47,14,time_blocks,False
+DDoS_attacks-LOIC-HTTP,28559,19991,4283,4001,284,time_order,True
+DoS_attacks-GoldenEye,5809,4066,871,814,58,time_order,True
+DoS_attacks-Hulk,10006,7004,1500,1402,100,time_order,True
+DoS_attacks-SlowHTTPTest,7654,5357,1148,1073,76,time_order,True
+DoS_attacks-Slowloris,2548,1783,382,359,24,time_order,True
+FTP-BruteForce,13332,9332,1999,1869,132,time_order,True
+Infilteration,17699,12389,2654,2480,176,time_order,True
+SQL_Injection,19,5,6,4,4,time_blocks,False
+SSH-Bruteforce,17918,12542,2687,2511,178,time_order,True

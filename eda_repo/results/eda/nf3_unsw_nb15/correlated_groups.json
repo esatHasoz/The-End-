@@ -1,0 +1,49 @@
+{
+  "threshold": 0.95,
+  "groups": [
+    [
+      "OUT_BYTES",
+      "OUT_PKTS",
+      "RETRANSMITTED_OUT_BYTES",
+      "RETRANSMITTED_OUT_PKTS"
+    ],
+    [
+      "SRC_TO_DST_IAT_AVG",
+      "SRC_TO_DST_IAT_MAX",
+      "SRC_TO_DST_IAT_STDDEV"
+    ],
+    [
+      "DST_TO_SRC_IAT_AVG",
+      "DST_TO_SRC_IAT_MAX",
+      "DST_TO_SRC_IAT_STDDEV"
+    ],
+    [
+      "CLIENT_TCP_FLAGS",
+      "TCP_FLAGS"
+    ],
+    [
+      "DURATION_IN",
+      "FLOW_DURATION_MILLISECONDS"
+    ],
+    [
+      "MAX_TTL",
+      "MIN_TTL"
+    ],
+    [
+      "DST_TO_SRC_AVG_THROUGHPUT",
+      "SRC_TO_DST_SECOND_BYTES"
+    ],
+    [
+      "DST_TO_SRC_SECOND_BYTES",
+      "SRC_TO_DST_AVG_THROUGHPUT"
+    ],
+    [
+      "ICMP_IPV4_TYPE",
+      "ICMP_TYPE"
+    ],
+    [
+      "DNS_QUERY_ID",
+      "DNS_QUERY_TYPE"
+    ]
+  ]
+}
