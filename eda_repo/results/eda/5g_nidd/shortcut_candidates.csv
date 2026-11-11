@@ -1,0 +1,300 @@
+feature,scope,auroc,auroc_tree,score,direction,n_pos,n_neg,is_port,suspicious
+SynAck,HTTPFlood vs benign,0.975516,0.997275,0.997275,+,98007,57563,False,True
+TcpRtt,HTTPFlood vs benign,0.976193,0.990933,0.990933,+,98007,57563,False,True
+AckDat,HTTPFlood vs benign,0.986644,0.987322,0.987322,+,98007,57563,False,True
+DstTCPBase,HTTPFlood vs benign,0.500497,0.976409,0.976409,+,98007,57563,False,True
+SrcBytes,HTTPFlood vs benign,0.691712,0.95987,0.95987,-,98007,57563,False,True
+SrcTCPBase,HTTPFlood vs benign,0.517979,0.955349,0.955349,+,98007,57563,False,True
+Rate,HTTPFlood vs benign,0.698446,0.954834,0.954834,-,98007,57563,False,True
+sMeanPktSz,HTTPFlood vs benign,0.517859,0.943375,0.943375,-,98007,57563,False,False
+Dur,HTTPFlood vs benign,0.719265,0.934561,0.934561,-,98007,57563,False,False
+Load,HTTPFlood vs benign,0.670821,0.91919,0.91919,-,98007,57563,False,False
+SrcLoad,HTTPFlood vs benign,0.683093,0.910314,0.910314,-,98007,57563,False,False
+SrcRate,HTTPFlood vs benign,0.673621,0.903239,0.903239,-,98007,57563,False,False
+SrcPkts,HTTPFlood vs benign,0.671062,0.898757,0.898757,-,98007,57563,False,False
+TotBytes,HTTPFlood vs benign,0.529049,0.896941,0.896941,-,98007,57563,False,False
+dMeanPktSz,HTTPFlood vs benign,0.696881,0.893436,0.893436,+,98007,57563,False,False
+DstBytes,HTTPFlood vs benign,0.683,0.872561,0.872561,+,98007,57563,False,False
+DstPkts,HTTPFlood vs benign,0.667609,0.844281,0.844281,+,98007,57563,False,False
+SrcWin,HTTPFlood vs benign,0.755237,0.82585,0.82585,-,98007,57563,False,False
+TotPkts,HTTPFlood vs benign,0.583806,0.823373,0.823373,-,98007,57563,False,False
+sTtl,HTTPFlood vs benign,0.687308,0.742864,0.742864,-,98007,57563,False,False
+sHops,HTTPFlood vs benign,0.513576,0.738316,0.738316,+,98007,57563,False,False
+DstWin,HTTPFlood vs benign,0.665687,0.708653,0.708653,-,98007,57563,False,False
+dTtl,HTTPFlood vs benign,0.632707,0.699671,0.699671,-,98007,57563,False,False
+dHops,HTTPFlood vs benign,0.519648,0.699671,0.699671,+,98007,57563,False,False
+DstRate,HTTPFlood vs benign,0.508102,0.693806,0.693806,+,98007,57563,False,False
+DstLoad,HTTPFlood vs benign,0.540252,0.692659,0.692659,+,98007,57563,False,False
+pLoss,HTTPFlood vs benign,0.509846,0.549193,0.549193,+,98007,57563,False,False
+DstLoss,HTTPFlood vs benign,0.523521,0.523158,0.523521,+,98007,57563,False,False
+Loss,HTTPFlood vs benign,0.510972,0.521179,0.521179,+,98007,57563,False,False
+SrcLoss,HTTPFlood vs benign,0.512373,0.515208,0.515208,-,98007,57563,False,False
+sTos,HTTPFlood vs benign,0.509763,0.5097,0.509763,-,98007,57563,False,False
+dTos,HTTPFlood vs benign,0.509763,0.509705,0.509763,-,98007,57563,False,False
+DstGap,HTTPFlood vs benign,0.500219,0.500199,0.500219,+,98007,57563,False,False
+SrcGap,HTTPFlood vs benign,0.500009,0.499994,0.500009,-,98007,57563,False,False
+DstBytes,ICMPFlood vs benign,0.601497,1.0,1.0,+,433,57563,False,True
+dMeanPktSz,ICMPFlood vs benign,0.601497,1.0,1.0,+,433,57563,False,True
+SrcBytes,ICMPFlood vs benign,0.999262,0.999986,0.999986,-,433,57563,False,True
+Dur,ICMPFlood vs benign,0.96349,0.997078,0.997078,-,433,57563,False,True
+Rate,ICMPFlood vs benign,0.977052,0.993741,0.993741,+,433,57563,False,True
+DstPkts,ICMPFlood vs benign,0.642783,0.958339,0.958339,+,433,57563,False,True
+Load,ICMPFlood vs benign,0.950845,0.950254,0.950845,-,433,57563,False,True
+SrcLoad,ICMPFlood vs benign,0.950532,0.949959,0.950532,-,433,57563,False,True
+SrcRate,ICMPFlood vs benign,0.950532,0.949959,0.950532,-,433,57563,False,True
+SrcPkts,ICMPFlood vs benign,0.95022,0.950359,0.950359,-,433,57563,False,True
+TotBytes,ICMPFlood vs benign,0.725813,0.744399,0.744399,-,433,57563,False,False
+sMeanPktSz,ICMPFlood vs benign,0.743776,0.744286,0.744286,-,433,57563,False,False
+sTtl,ICMPFlood vs benign,0.687308,0.743026,0.743026,-,433,57563,False,False
+sHops,ICMPFlood vs benign,0.513576,0.73864,0.73864,+,433,57563,False,False
+dTtl,ICMPFlood vs benign,0.632707,0.699209,0.699209,-,433,57563,False,False
+dHops,ICMPFlood vs benign,0.519648,0.699209,0.699209,+,433,57563,False,False
+TotPkts,ICMPFlood vs benign,0.663933,0.682412,0.682412,-,433,57563,False,False
+DstLoad,ICMPFlood vs benign,0.65781,0.656548,0.65781,-,433,57563,False,False
+DstRate,ICMPFlood vs benign,0.65781,0.656548,0.65781,-,433,57563,False,False
+SrcTCPBase,ICMPFlood vs benign,0.504482,0.546899,0.546899,-,433,57563,False,False
+SrcWin,ICMPFlood vs benign,0.534632,0.546713,0.546713,-,433,57563,False,False
+DstTCPBase,ICMPFlood vs benign,0.501711,0.525434,0.525434,+,433,57563,False,False
+DstWin,ICMPFlood vs benign,0.504508,0.52504,0.52504,+,433,57563,False,False
+TcpRtt,ICMPFlood vs benign,0.521125,0.520011,0.521125,-,433,57563,False,False
+SynAck,ICMPFlood vs benign,0.521125,0.520011,0.521125,-,433,57563,False,False
+AckDat,ICMPFlood vs benign,0.521116,0.520008,0.521116,-,433,57563,False,False
+Loss,ICMPFlood vs benign,0.520751,0.520153,0.520751,-,433,57563,False,False
+pLoss,ICMPFlood vs benign,0.520751,0.520153,0.520751,-,433,57563,False,False
+SrcLoss,ICMPFlood vs benign,0.520326,0.519709,0.520326,-,433,57563,False,False
+sTos,ICMPFlood vs benign,0.509763,0.508968,0.509763,-,433,57563,False,False
+dTos,ICMPFlood vs benign,0.509763,0.508951,0.509763,-,433,57563,False,False
+DstLoss,ICMPFlood vs benign,0.50046,0.499697,0.50046,-,433,57563,False,False
+SrcGap,ICMPFlood vs benign,0.500009,0.499224,0.500009,-,433,57563,False,False
+SrcWin,SYNFlood vs benign,0.992466,0.99986,0.99986,-,6804,57563,False,True
+SrcBytes,SYNFlood vs benign,0.510816,0.999652,0.999652,-,6804,57563,False,True
+sMeanPktSz,SYNFlood vs benign,0.512074,0.999586,0.999586,+,6804,57563,False,True
+TotBytes,SYNFlood vs benign,0.533647,0.999389,0.999389,-,6804,57563,False,True
+TotPkts,SYNFlood vs benign,0.533745,0.980512,0.980512,+,6804,57563,False,True
+SrcTCPBase,SYNFlood vs benign,0.940734,0.97883,0.97883,-,6804,57563,False,True
+Load,SYNFlood vs benign,0.567591,0.978821,0.978821,+,6804,57563,False,True
+Dur,SYNFlood vs benign,0.946443,0.973566,0.973566,-,6804,57563,False,True
+SrcLoad,SYNFlood vs benign,0.596677,0.963783,0.963783,+,6804,57563,False,True
+dMeanPktSz,SYNFlood vs benign,0.54079,0.936689,0.936689,+,6804,57563,False,False
+DstBytes,SYNFlood vs benign,0.540843,0.936462,0.936462,+,6804,57563,False,False
+SrcRate,SYNFlood vs benign,0.702372,0.914342,0.914342,+,6804,57563,False,False
+DstWin,SYNFlood vs benign,0.873354,0.900311,0.900311,-,6804,57563,False,False
+Rate,SYNFlood vs benign,0.698018,0.898951,0.898951,+,6804,57563,False,False
+TcpRtt,SYNFlood vs benign,0.860293,0.898201,0.898201,+,6804,57563,False,False
+SynAck,SYNFlood vs benign,0.874904,0.897079,0.897079,+,6804,57563,False,False
+DstPkts,SYNFlood vs benign,0.573219,0.886279,0.886279,+,6804,57563,False,False
+DstTCPBase,SYNFlood vs benign,0.503893,0.872159,0.872159,+,6804,57563,False,False
+dTtl,SYNFlood vs benign,0.632707,0.699671,0.699671,-,6804,57563,False,False
+dHops,SYNFlood vs benign,0.519648,0.699671,0.699671,+,6804,57563,False,False
+SrcPkts,SYNFlood vs benign,0.678921,0.67763,0.678921,-,6804,57563,False,False
+DstLoad,SYNFlood vs benign,0.657452,0.656374,0.657452,-,6804,57563,False,False
+DstRate,SYNFlood vs benign,0.65745,0.656534,0.65745,-,6804,57563,False,False
+sTtl,SYNFlood vs benign,0.525534,0.650925,0.650925,-,6804,57563,False,False
+sHops,SYNFlood vs benign,0.649602,0.648483,0.649602,-,6804,57563,False,False
+pLoss,SYNFlood vs benign,0.516158,0.524641,0.524641,-,6804,57563,False,False
+AckDat,SYNFlood vs benign,0.521116,0.520745,0.521116,-,6804,57563,False,False
+SrcLoss,SYNFlood vs benign,0.51616,0.515941,0.51616,-,6804,57563,False,False
+Loss,SYNFlood vs benign,0.516086,0.515752,0.516086,-,6804,57563,False,False
+sTos,SYNFlood vs benign,0.509763,0.5097,0.509763,-,6804,57563,False,False
+dTos,SYNFlood vs benign,0.509763,0.509705,0.509763,-,6804,57563,False,False
+DstLoss,SYNFlood vs benign,0.500054,0.500287,0.500287,+,6804,57563,False,False
+SrcGap,SYNFlood vs benign,0.500009,0.499994,0.500009,-,6804,57563,False,False
+SrcBytes,SYNScan vs benign,0.987416,0.999982,0.999982,-,939,57563,False,True
+sMeanPktSz,SYNScan vs benign,0.510515,0.997718,0.997718,+,939,57563,False,True
+TotBytes,SYNScan vs benign,0.968911,0.995098,0.995098,-,939,57563,False,True
+sTtl,SYNScan vs benign,0.99171,0.992551,0.992551,-,939,57563,False,True
+SrcWin,SYNScan vs benign,0.955416,0.98789,0.98789,-,939,57563,False,True
+Dur,SYNScan vs benign,0.987313,0.987558,0.987558,-,939,57563,False,True
+Rate,SYNScan vs benign,0.93282,0.984911,0.984911,-,939,57563,False,True
+SrcTCPBase,SYNScan vs benign,0.848181,0.978509,0.978509,-,939,57563,False,True
+TotPkts,SYNScan vs benign,0.965115,0.973505,0.973505,-,939,57563,False,True
+sHops,SYNScan vs benign,0.959157,0.95981,0.95981,+,939,57563,False,True
+SrcRate,SYNScan vs benign,0.934183,0.94638,0.94638,-,939,57563,False,False
+Load,SYNScan vs benign,0.938518,0.945638,0.945638,-,939,57563,False,False
+SrcLoad,SYNScan vs benign,0.937497,0.945047,0.945047,-,939,57563,False,False
+SrcPkts,SYNScan vs benign,0.943759,0.943553,0.943759,-,939,57563,False,False
+DstBytes,SYNScan vs benign,0.681935,0.71556,0.71556,-,939,57563,False,False
+dMeanPktSz,SYNScan vs benign,0.681935,0.715543,0.715543,-,939,57563,False,False
+dTtl,SYNScan vs benign,0.632707,0.699671,0.699671,-,939,57563,False,False
+dHops,SYNScan vs benign,0.519648,0.699671,0.699671,+,939,57563,False,False
+DstPkts,SYNScan vs benign,0.679582,0.679137,0.679582,-,939,57563,False,False
+DstLoad,SYNScan vs benign,0.65781,0.657074,0.65781,-,939,57563,False,False
+DstRate,SYNScan vs benign,0.65781,0.657074,0.65781,-,939,57563,False,False
+DstWin,SYNScan vs benign,0.520252,0.53683,0.53683,-,939,57563,False,False
+SynAck,SYNScan vs benign,0.513182,0.526532,0.526532,-,939,57563,False,False
+AckDat,SYNScan vs benign,0.521116,0.520745,0.521116,-,939,57563,False,False
+Loss,SYNScan vs benign,0.520751,0.52041,0.520751,-,939,57563,False,False
+pLoss,SYNScan vs benign,0.520751,0.52041,0.520751,-,939,57563,False,False
+TcpRtt,SYNScan vs benign,0.513475,0.520748,0.520748,-,939,57563,False,False
+SrcLoss,SYNScan vs benign,0.520326,0.520007,0.520326,-,939,57563,False,False
+DstTCPBase,SYNScan vs benign,0.50125,0.514587,0.514587,+,939,57563,False,False
+sTos,SYNScan vs benign,0.509763,0.5097,0.509763,-,939,57563,False,False
+dTos,SYNScan vs benign,0.509763,0.509705,0.509763,-,939,57563,False,False
+DstLoss,SYNScan vs benign,0.50046,0.500449,0.50046,-,939,57563,False,False
+SrcGap,SYNScan vs benign,0.500009,0.499994,0.500009,-,939,57563,False,False
+SynAck,SlowrateDoS vs benign,0.975002,0.996702,0.996702,+,51100,57563,False,True
+TcpRtt,SlowrateDoS vs benign,0.965067,0.992885,0.992885,+,51100,57563,False,True
+AckDat,SlowrateDoS vs benign,0.967944,0.989432,0.989432,+,51100,57563,False,True
+Rate,SlowrateDoS vs benign,0.604847,0.977546,0.977546,+,51100,57563,False,True
+DstTCPBase,SlowrateDoS vs benign,0.505295,0.975441,0.975441,+,51100,57563,False,True
+sMeanPktSz,SlowrateDoS vs benign,0.531165,0.969448,0.969448,+,51100,57563,False,True
+Load,SlowrateDoS vs benign,0.618965,0.966028,0.966028,+,51100,57563,False,True
+SrcWin,SlowrateDoS vs benign,0.882043,0.964661,0.964661,+,51100,57563,False,True
+SrcLoad,SlowrateDoS vs benign,0.589432,0.958618,0.958618,+,51100,57563,False,True
+TotBytes,SlowrateDoS vs benign,0.659178,0.958165,0.958165,+,51100,57563,False,True
+DstBytes,SlowrateDoS vs benign,0.728993,0.95569,0.95569,+,51100,57563,False,True
+SrcTCPBase,SlowrateDoS vs benign,0.517637,0.955047,0.955047,+,51100,57563,False,True
+SrcRate,SlowrateDoS vs benign,0.598722,0.952874,0.952874,+,51100,57563,False,True
+dMeanPktSz,SlowrateDoS vs benign,0.661668,0.947393,0.947393,+,51100,57563,False,False
+SrcBytes,SlowrateDoS vs benign,0.590858,0.937014,0.937014,+,51100,57563,False,False
+DstPkts,SlowrateDoS vs benign,0.752431,0.927705,0.927705,+,51100,57563,False,False
+TotPkts,SlowrateDoS vs benign,0.686668,0.927194,0.927194,+,51100,57563,False,False
+DstLoad,SlowrateDoS vs benign,0.670013,0.925665,0.925665,+,51100,57563,False,False
+DstRate,SlowrateDoS vs benign,0.679564,0.916026,0.916026,+,51100,57563,False,False
+SrcPkts,SlowrateDoS vs benign,0.624813,0.914714,0.914714,+,51100,57563,False,False
+Dur,SlowrateDoS vs benign,0.589592,0.878406,0.878406,+,51100,57563,False,False
+DstWin,SlowrateDoS vs benign,0.804306,0.825422,0.825422,+,51100,57563,False,False
+sTtl,SlowrateDoS vs benign,0.687308,0.742868,0.742868,-,51100,57563,False,False
+sHops,SlowrateDoS vs benign,0.513576,0.738319,0.738319,+,51100,57563,False,False
+dTtl,SlowrateDoS vs benign,0.632707,0.699667,0.699667,-,51100,57563,False,False
+dHops,SlowrateDoS vs benign,0.519648,0.699667,0.699667,+,51100,57563,False,False
+pLoss,SlowrateDoS vs benign,0.51736,0.522644,0.522644,-,51100,57563,False,False
+SrcLoss,SlowrateDoS vs benign,0.51826,0.518042,0.51826,-,51100,57563,False,False
+Loss,SlowrateDoS vs benign,0.517262,0.516931,0.517262,-,51100,57563,False,False
+sTos,SlowrateDoS vs benign,0.509763,0.5097,0.509763,-,51100,57563,False,False
+dTos,SlowrateDoS vs benign,0.509763,0.509699,0.509763,-,51100,57563,False,False
+DstLoss,SlowrateDoS vs benign,0.501349,0.501234,0.501349,+,51100,57563,False,False
+SrcGap,SlowrateDoS vs benign,0.500009,0.499988,0.500009,-,51100,57563,False,False
+SrcWin,TCPConnectScan vs benign,0.892876,0.992788,0.992788,-,14028,57563,False,True
+SrcBytes,TCPConnectScan vs benign,0.975256,0.989602,0.989602,-,14028,57563,False,True
+TotBytes,TCPConnectScan vs benign,0.984498,0.989595,0.989595,-,14028,57563,False,True
+Dur,TCPConnectScan vs benign,0.988272,0.988586,0.988586,-,14028,57563,False,True
+Rate,TCPConnectScan vs benign,0.982434,0.987911,0.987911,-,14028,57563,False,True
+TotPkts,TCPConnectScan vs benign,0.98602,0.987351,0.987351,-,14028,57563,False,True
+sMeanPktSz,TCPConnectScan vs benign,0.56854,0.957857,0.957857,+,14028,57563,False,True
+SrcTCPBase,TCPConnectScan vs benign,0.513835,0.954647,0.954647,+,14028,57563,False,True
+Load,TCPConnectScan vs benign,0.945548,0.949389,0.949389,-,14028,57563,False,False
+SrcLoad,TCPConnectScan vs benign,0.945028,0.949193,0.949193,-,14028,57563,False,False
+SrcRate,TCPConnectScan vs benign,0.944522,0.948617,0.948617,-,14028,57563,False,False
+SrcPkts,TCPConnectScan vs benign,0.946557,0.947977,0.947977,-,14028,57563,False,False
+sTtl,TCPConnectScan vs benign,0.687947,0.742297,0.742297,-,14028,57563,False,False
+sHops,TCPConnectScan vs benign,0.514496,0.737653,0.737653,+,14028,57563,False,False
+dTtl,TCPConnectScan vs benign,0.632707,0.699671,0.699671,-,14028,57563,False,False
+dHops,TCPConnectScan vs benign,0.519648,0.699671,0.699671,+,14028,57563,False,False
+DstBytes,TCPConnectScan vs benign,0.697915,0.699229,0.699229,-,14028,57563,False,False
+dMeanPktSz,TCPConnectScan vs benign,0.697712,0.699142,0.699142,-,14028,57563,False,False
+DstPkts,TCPConnectScan vs benign,0.697764,0.697318,0.697764,-,14028,57563,False,False
+DstLoad,TCPConnectScan vs benign,0.65781,0.657074,0.65781,-,14028,57563,False,False
+DstRate,TCPConnectScan vs benign,0.65781,0.657074,0.65781,-,14028,57563,False,False
+DstWin,TCPConnectScan vs benign,0.505418,0.526787,0.526787,+,14028,57563,False,False
+DstTCPBase,TCPConnectScan vs benign,0.501503,0.524668,0.524668,+,14028,57563,False,False
+pLoss,TCPConnectScan vs benign,0.518249,0.522519,0.522519,-,14028,57563,False,False
+SynAck,TCPConnectScan vs benign,0.519707,0.521731,0.521731,-,14028,57563,False,False
+TcpRtt,TCPConnectScan vs benign,0.519731,0.519047,0.519731,-,14028,57563,False,False
+AckDat,TCPConnectScan vs benign,0.519712,0.519277,0.519712,-,14028,57563,False,False
+Loss,TCPConnectScan vs benign,0.51821,0.517844,0.51821,-,14028,57563,False,False
+SrcLoss,TCPConnectScan vs benign,0.517783,0.51744,0.517783,-,14028,57563,False,False
+sTos,TCPConnectScan vs benign,0.509763,0.5097,0.509763,-,14028,57563,False,False
+dTos,TCPConnectScan vs benign,0.509763,0.509705,0.509763,-,14028,57563,False,False
+DstLoss,TCPConnectScan vs benign,0.50046,0.500449,0.50046,-,14028,57563,False,False
+SrcGap,TCPConnectScan vs benign,0.500009,0.499994,0.500009,-,14028,57563,False,False
+Rate,UDPFlood vs benign,0.652323,0.947848,0.947848,-,47098,57563,False,False
+Dur,UDPFlood vs benign,0.64208,0.940578,0.940578,+,47098,57563,False,False
+Load,UDPFlood vs benign,0.58466,0.936063,0.936063,-,47098,57563,False,False
+SrcLoad,UDPFlood vs benign,0.583914,0.935886,0.935886,-,47098,57563,False,False
+SrcRate,UDPFlood vs benign,0.571285,0.928852,0.928852,-,47098,57563,False,False
+TotBytes,UDPFlood vs benign,0.661866,0.806203,0.806203,-,47098,57563,False,False
+SrcBytes,UDPFlood vs benign,0.633322,0.795434,0.795434,-,47098,57563,False,False
+sMeanPktSz,UDPFlood vs benign,0.743776,0.74411,0.74411,-,47098,57563,False,False
+sTtl,UDPFlood vs benign,0.687308,0.742868,0.742868,-,47098,57563,False,False
+TotPkts,UDPFlood vs benign,0.582709,0.741157,0.741157,-,47098,57563,False,False
+sHops,UDPFlood vs benign,0.513576,0.738319,0.738319,+,47098,57563,False,False
+SrcPkts,UDPFlood vs benign,0.532978,0.719878,0.719878,-,47098,57563,False,False
+dTtl,UDPFlood vs benign,0.632707,0.699667,0.699667,-,47098,57563,False,False
+dHops,UDPFlood vs benign,0.519648,0.699667,0.699667,+,47098,57563,False,False
+DstPkts,UDPFlood vs benign,0.699251,0.698818,0.699251,-,47098,57563,False,False
+DstBytes,UDPFlood vs benign,0.699251,0.698818,0.699251,-,47098,57563,False,False
+dMeanPktSz,UDPFlood vs benign,0.699251,0.698818,0.699251,-,47098,57563,False,False
+DstLoad,UDPFlood vs benign,0.65781,0.657069,0.65781,-,47098,57563,False,False
+DstRate,UDPFlood vs benign,0.65781,0.657069,0.65781,-,47098,57563,False,False
+SrcTCPBase,UDPFlood vs benign,0.504482,0.547363,0.547363,-,47098,57563,False,False
+SrcWin,UDPFlood vs benign,0.534632,0.547131,0.547131,-,47098,57563,False,False
+DstTCPBase,UDPFlood vs benign,0.501711,0.526156,0.526156,+,47098,57563,False,False
+DstWin,UDPFlood vs benign,0.504508,0.525762,0.525762,+,47098,57563,False,False
+TcpRtt,UDPFlood vs benign,0.521125,0.520742,0.521125,-,47098,57563,False,False
+SynAck,UDPFlood vs benign,0.521125,0.520742,0.521125,-,47098,57563,False,False
+AckDat,UDPFlood vs benign,0.521116,0.520739,0.521116,-,47098,57563,False,False
+Loss,UDPFlood vs benign,0.520751,0.520416,0.520751,-,47098,57563,False,False
+pLoss,UDPFlood vs benign,0.520751,0.520416,0.520751,-,47098,57563,False,False
+SrcLoss,UDPFlood vs benign,0.520326,0.520014,0.520326,-,47098,57563,False,False
+sTos,UDPFlood vs benign,0.509763,0.5097,0.509763,-,47098,57563,False,False
+dTos,UDPFlood vs benign,0.509763,0.509698,0.509763,-,47098,57563,False,False
+DstLoss,UDPFlood vs benign,0.50046,0.500455,0.50046,-,47098,57563,False,False
+SrcGap,UDPFlood vs benign,0.500009,0.499987,0.500009,-,47098,57563,False,False
+sTtl,UDPScan vs benign,0.996808,0.997489,0.997489,-,224,57563,False,True
+Dur,UDPScan vs benign,0.984388,0.974814,0.984388,-,224,57563,False,True
+Rate,UDPScan vs benign,0.86935,0.970888,0.970888,-,224,57563,False,True
+sHops,UDPScan vs benign,0.968352,0.967588,0.968352,+,224,57563,False,True
+SrcPkts,UDPScan vs benign,0.948715,0.947494,0.948715,-,224,57563,False,False
+Load,UDPScan vs benign,0.94816,0.947866,0.94816,-,224,57563,False,False
+SrcLoad,UDPScan vs benign,0.947835,0.947623,0.947835,-,224,57563,False,False
+SrcRate,UDPScan vs benign,0.947813,0.947588,0.947813,-,224,57563,False,False
+TotPkts,UDPScan vs benign,0.946468,0.940577,0.946468,-,224,57563,False,False
+SrcBytes,UDPScan vs benign,0.814387,0.889112,0.889112,-,224,57563,False,False
+TotBytes,UDPScan vs benign,0.763693,0.850396,0.850396,-,224,57563,False,False
+sMeanPktSz,UDPScan vs benign,0.536426,0.820396,0.820396,+,224,57563,False,False
+DstBytes,UDPScan vs benign,0.660279,0.730955,0.730955,-,224,57563,False,False
+dMeanPktSz,UDPScan vs benign,0.660278,0.730938,0.730938,-,224,57563,False,False
+dTtl,UDPScan vs benign,0.632707,0.698888,0.698888,-,224,57563,False,False
+dHops,UDPScan vs benign,0.519648,0.698888,0.698888,+,224,57563,False,False
+DstLoad,UDPScan vs benign,0.65781,0.656402,0.65781,-,224,57563,False,False
+DstRate,UDPScan vs benign,0.65781,0.656402,0.65781,-,224,57563,False,False
+DstPkts,UDPScan vs benign,0.65497,0.642975,0.65497,-,224,57563,False,False
+SrcWin,UDPScan vs benign,0.595912,0.599426,0.599426,-,224,57563,False,False
+DstWin,UDPScan vs benign,0.55401,0.568854,0.568854,-,224,57563,False,False
+SrcTCPBase,UDPScan vs benign,0.516774,0.547144,0.547144,+,224,57563,False,False
+DstTCPBase,UDPScan vs benign,0.501711,0.525106,0.525106,+,224,57563,False,False
+TcpRtt,UDPScan vs benign,0.521125,0.519606,0.521125,-,224,57563,False,False
+SynAck,UDPScan vs benign,0.521125,0.519606,0.521125,-,224,57563,False,False
+AckDat,UDPScan vs benign,0.521116,0.519603,0.521116,-,224,57563,False,False
+Loss,UDPScan vs benign,0.520751,0.519527,0.520751,-,224,57563,False,False
+pLoss,UDPScan vs benign,0.520751,0.519527,0.520751,-,224,57563,False,False
+SrcLoss,UDPScan vs benign,0.520326,0.519095,0.520326,-,224,57563,False,False
+sTos,UDPScan vs benign,0.509763,0.508327,0.509763,-,224,57563,False,False
+dTos,UDPScan vs benign,0.509763,0.508246,0.509763,-,224,57563,False,False
+DstLoss,UDPScan vs benign,0.50046,0.498979,0.50046,-,224,57563,False,False
+SrcGap,UDPScan vs benign,0.500009,0.498506,0.500009,-,224,57563,False,False
+Rate,binary,0.62335,0.922502,0.922502,-,218633,57563,False,False
+Load,binary,0.596726,0.900795,0.900795,-,218633,57563,False,False
+SrcRate,binary,0.595551,0.896305,0.896305,-,218633,57563,False,False
+Dur,binary,0.595473,0.871371,0.871371,-,218633,57563,False,False
+SrcBytes,binary,0.627658,0.861726,0.861726,-,218633,57563,False,False
+SynAck,binary,0.829912,0.851466,0.851466,+,218633,57563,False,False
+SrcLoad,binary,0.608025,0.847924,0.847924,-,218633,57563,False,False
+SrcTCPBase,binary,0.503099,0.845914,0.845914,-,218633,57563,False,False
+TcpRtt,binary,0.827436,0.840178,0.840178,+,218633,57563,False,False
+sMeanPktSz,binary,0.548863,0.828621,0.828621,-,218633,57563,False,False
+DstTCPBase,binary,0.502057,0.828231,0.828231,+,218633,57563,False,False
+AckDat,binary,0.820894,0.824179,0.824179,+,218633,57563,False,False
+SrcWin,binary,0.575239,0.803077,0.803077,-,218633,57563,False,False
+TotBytes,binary,0.545552,0.802764,0.802764,-,218633,57563,False,False
+SrcPkts,binary,0.592092,0.796967,0.796967,-,218633,57563,False,False
+TotPkts,binary,0.54467,0.795514,0.795514,-,218633,57563,False,False
+dMeanPktSz,binary,0.570958,0.756446,0.756446,+,218633,57563,False,False
+sTtl,binary,0.683939,0.736323,0.736323,-,218633,57563,False,False
+sHops,binary,0.510937,0.732623,0.732623,+,218633,57563,False,False
+DstPkts,binary,0.580153,0.728874,0.728874,+,218633,57563,False,False
+DstBytes,binary,0.58046,0.705411,0.705411,+,218633,57563,False,False
+DstRate,binary,0.504572,0.70465,0.70465,-,218633,57563,False,False
+dTtl,binary,0.632707,0.699671,0.699671,-,218633,57563,False,False
+dHops,binary,0.519648,0.699671,0.699671,+,218633,57563,False,False
+DstWin,binary,0.513582,0.68865,0.68865,-,218633,57563,False,False
+DstLoad,binary,0.507607,0.630884,0.630884,+,218633,57563,False,False
+pLoss,binary,0.505939,0.533572,0.533572,-,218633,57563,False,False
+SrcLoss,binary,0.515985,0.516883,0.516883,-,218633,57563,False,False
+Loss,binary,0.505407,0.51075,0.51075,-,218633,57563,False,False
+DstLoss,binary,0.510729,0.510695,0.510729,+,218633,57563,False,False
+sTos,binary,0.509763,0.509701,0.509763,-,218633,57563,False,False
+dTos,binary,0.509763,0.509704,0.509763,-,218633,57563,False,False
+DstGap,binary,0.500098,0.500085,0.500098,+,218633,57563,False,False
+SrcGap,binary,0.500009,0.499993,0.500009,-,218633,57563,False,False

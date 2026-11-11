@@ -1,0 +1,51 @@
+{
+  "train": {
+    "cap_per_class": 200000,
+    "rows_before": 276196,
+    "rows_after": 276196,
+    "per_class_after": {
+      "HTTPFlood": 98007,
+      "Benign": 57563,
+      "SlowrateDoS": 51100,
+      "UDPFlood": 47098,
+      "TCPConnectScan": 14028,
+      "SYNFlood": 6804,
+      "SYNScan": 939,
+      "ICMPFlood": 433,
+      "UDPScan": 224
+    }
+  },
+  "val": {
+    "cap_per_class": 50000,
+    "rows_before": 59180,
+    "rows_after": 59180,
+    "per_class_after": {
+      "HTTPFlood": 21001,
+      "Benign": 12335,
+      "SlowrateDoS": 10950,
+      "UDPFlood": 10092,
+      "TCPConnectScan": 3006,
+      "SYNFlood": 1458,
+      "SYNScan": 201,
+      "ICMPFlood": 92,
+      "UDPScan": 45
+    }
+  },
+  "test": {
+    "cap_per_class": null,
+    "rows_before": 55248,
+    "rows_after": 55248,
+    "per_class_after": {
+      "HTTPFlood": 19603,
+      "Benign": 11514,
+      "SlowrateDoS": 10221,
+      "UDPFlood": 9421,
+      "TCPConnectScan": 2806,
+      "SYNFlood": 1363,
+      "SYNScan": 190,
+      "ICMPFlood": 88,
+      "UDPScan": 42
+    }
+  },
+  "note": "test is not sampled; report test metrics on its natural class ratio"
+}

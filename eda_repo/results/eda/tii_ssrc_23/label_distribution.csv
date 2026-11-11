@@ -1,0 +1,6 @@
+class,is_attack,count_raw,count,removed,pct,imbalance_vs_largest
+DoS,True,7490929,7490852,77,86.5594,1.0
+Information Gathering,True,1038363,1038362,1,11.9986,7.21
+Mirai,True,91002,88311,2691,1.0205,84.82
+Bruteforce,True,35172,35172,0,0.4064,212.98
+Benign,False,1301,1301,0,0.015,5757.76

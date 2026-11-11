@@ -1,0 +1,88 @@
+{
+  "drop": [
+    "Attack Tool",
+    "Attack Type",
+    "Cause",
+    "Label",
+    "Offset",
+    "Proto",
+    "State",
+    "Unnamed: 0",
+    "dDSb",
+    "sDSb"
+  ],
+  "id_columns": [],
+  "index_like": [
+    "Unnamed: 0"
+  ],
+  "label_like": [
+    "Label",
+    "Attack Type",
+    "Attack Tool"
+  ],
+  "non_numeric": [
+    "Proto",
+    "sDSb",
+    "dDSb",
+    "Cause",
+    "State",
+    "Label",
+    "Attack Type",
+    "Attack Tool"
+  ],
+  "extra": [
+    "Offset"
+  ],
+  "extra_not_found": [],
+  "port_candidates": [],
+  "review_manually": [],
+  "redundant": [
+    "Max",
+    "Mean",
+    "Min",
+    "RunTime",
+    "Sum",
+    "dVid",
+    "sVid"
+  ],
+  "model_features": [
+    "Dur",
+    "sTos",
+    "dTos",
+    "sTtl",
+    "dTtl",
+    "sHops",
+    "dHops",
+    "TotPkts",
+    "SrcPkts",
+    "DstPkts",
+    "TotBytes",
+    "SrcBytes",
+    "DstBytes",
+    "sMeanPktSz",
+    "dMeanPktSz",
+    "Load",
+    "SrcLoad",
+    "DstLoad",
+    "Loss",
+    "SrcLoss",
+    "DstLoss",
+    "pLoss",
+    "SrcGap",
+    "DstGap",
+    "Rate",
+    "SrcRate",
+    "DstRate",
+    "SrcWin",
+    "DstWin",
+    "SrcTCPBase",
+    "DstTCPBase",
+    "TcpRtt",
+    "SynAck",
+    "AckDat"
+  ],
+  "metadata": {
+    "time_col": null,
+    "label_col": "Class"
+  }
+}

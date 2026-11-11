@@ -1,0 +1,39 @@
+{
+  "train": {
+    "cap_per_class": 200000,
+    "rows_before": 6057796,
+    "rows_after": 487347,
+    "per_class_after": {
+      "DoS": 200000,
+      "Information Gathering": 200000,
+      "Mirai": 61817,
+      "Bruteforce": 24620,
+      "Benign": 910
+    }
+  },
+  "val": {
+    "cap_per_class": 50000,
+    "rows_before": 1298097,
+    "rows_after": 118716,
+    "per_class_after": {
+      "DoS": 50000,
+      "Information Gathering": 50000,
+      "Mirai": 13246,
+      "Bruteforce": 5275,
+      "Benign": 195
+    }
+  },
+  "test": {
+    "cap_per_class": null,
+    "rows_before": 1211571,
+    "rows_after": 1211571,
+    "per_class_after": {
+      "DoS": 1048721,
+      "Information Gathering": 145373,
+      "Mirai": 12366,
+      "Bruteforce": 4927,
+      "Benign": 184
+    }
+  },
+  "note": "test is not sampled; report test metrics on its natural class ratio"
+}

@@ -1,0 +1,72 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-11T19:34:52+00:00",
+  "args": {
+    "dataset": "tii_ssrc_23",
+    "name": "tii_ssrc_23",
+    "family": "cicflowmeter",
+    "inputs": [
+      "data\\interim\\tii_ssrc_23\\tii_published.parquet"
+    ],
+    "out": "results\\eda\\tii_ssrc_23",
+    "source_url": "https://www.kaggle.com/datasets/daniaherzalla/tii-ssrc-23",
+    "version": "published CICFlowMeter features (tii_ssrc_23.csv)",
+    "license": "see Kaggle page; cite Herzalla et al. 2023",
+    "label_col": "Class",
+    "time_col": "Timestamp",
+    "benign_label": "Benign",
+    "ampm_fix": "off",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [],
+    "no_inject": false,
+    "inject": false,
+    "notes": "About 8.6M flows. Flows must be labelled before EDA. Use BENIGN for benign flows. Plan B (published CSV): pass --label-col 'Traffic Type' or similar; the other label columns are removed automatically.",
+    "group": "C",
+    "owner": "Selim"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "text_inferred_format",
+    "ampm_fix": "off",
+    "ampm_shifted_rows": 0
+  },
+  "warnings": [],
+  "python": "3.13.17",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "runtime_sec": 231.9
+}

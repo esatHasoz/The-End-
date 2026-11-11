@@ -1,0 +1,10 @@
+class,n,train,val,test,gap,method,ok
+Benign,82234,57563,12335,11514,822,time_order,True
+HTTPFlood,140011,98007,21001,19603,1400,time_order,True
+ICMPFlood,619,433,92,88,6,time_order,True
+SYNFlood,9721,6804,1458,1363,96,time_order,True
+SYNScan,1342,939,201,190,12,time_order,True
+SlowrateDoS,73001,51100,10950,10221,730,time_order,True
+TCPConnectScan,20040,14028,3006,2806,200,time_order,True
+UDPFlood,67283,47098,10092,9421,672,time_order,True
+UDPScan,329,224,45,42,18,time_blocks,False
