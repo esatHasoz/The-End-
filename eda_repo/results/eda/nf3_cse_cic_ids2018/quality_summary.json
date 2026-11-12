@@ -1,0 +1,40 @@
+{
+  "rows": 2011291,
+  "duplicate_rows": 121554,
+  "conflicting_rows": 36085,
+  "conflicting_rows_per_class": {
+    "FTP-BruteForce": 21065,
+    "DoS_attacks-SlowHTTPTest": 9899,
+    "Benign": 4790,
+    "Infilteration": 232,
+    "Brute_Force_-XSS": 37,
+    "Brute_Force_-Web": 28,
+    "SQL_Injection": 28,
+    "SSH-Bruteforce": 6
+  },
+  "duplicate_rows_per_class": {
+    "Benign": 88269,
+    "FTP-BruteForce": 25350,
+    "DoS_attacks-SlowHTTPTest": 2807,
+    "Bot": 1599,
+    "Infilteration": 1041,
+    "DoS_attacks-Slowloris": 1024,
+    "SSH-Bruteforce": 965,
+    "DoS_attacks-GoldenEye": 285,
+    "DDOS_attack-HOIC": 77,
+    "DDoS_attacks-LOIC-HTTP": 57,
+    "Brute_Force_-XSS": 30,
+    "SQL_Injection": 20,
+    "DDOS_attack-LOIC-UDP": 16,
+    "Brute_Force_-Web": 14
+  },
+  "columns_with_nan": [],
+  "columns_with_inf": [],
+  "columns_with_negative": [],
+  "constant_columns": [
+    "FTP_COMMAND_RET_CODE"
+  ],
+  "duplicate_columns": {
+    "MAX_IP_PKT_LEN": "LONGEST_FLOW_PKT"
+  }
+}

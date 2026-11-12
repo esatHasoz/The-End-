@@ -1,0 +1,54 @@
+{
+  "train": {
+    "cap_per_class": 200000,
+    "rows_before": 1497593,
+    "rows_after": 280471,
+    "per_class_after": {
+      "Benign": 200000,
+      "Exploits": 29855,
+      "Fuzzers": 23130,
+      "Reconnaissance": 11814,
+      "Generic": 5646,
+      "DoS": 4161,
+      "Backdoor": 3234,
+      "Shellcode": 1664,
+      "Analysis": 858,
+      "Worms": 109
+    }
+  },
+  "val": {
+    "cap_per_class": 50000,
+    "rows_before": 320904,
+    "rows_after": 67235,
+    "per_class_after": {
+      "Benign": 50000,
+      "Exploits": 6397,
+      "Fuzzers": 4956,
+      "Reconnaissance": 2531,
+      "Generic": 1209,
+      "DoS": 891,
+      "Backdoor": 693,
+      "Shellcode": 356,
+      "Analysis": 183,
+      "Worms": 19
+    }
+  },
+  "test": {
+    "cap_per_class": null,
+    "rows_before": 299532,
+    "rows_after": 299532,
+    "per_class_after": {
+      "Benign": 283425,
+      "Exploits": 5973,
+      "Fuzzers": 4628,
+      "Reconnaissance": 2365,
+      "Generic": 1131,
+      "DoS": 835,
+      "Backdoor": 648,
+      "Shellcode": 336,
+      "Analysis": 173,
+      "Worms": 18
+    }
+  },
+  "note": "test is not sampled; report test metrics on its natural class ratio"
+}
