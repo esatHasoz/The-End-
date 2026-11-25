@@ -1,0 +1,75 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-11T19:50:54+00:00",
+  "args": {
+    "dataset": "5g_nidd",
+    "name": "5g_nidd",
+    "family": "cicflowmeter",
+    "inputs": [
+      "data\\interim\\5g_nidd\\5g_nidd_published.parquet"
+    ],
+    "out": "results\\eda\\5g_nidd",
+    "source_url": "https://etsin.fairdata.fi/dataset/9d13ef28-2ca7-44b0-9950-225359afac65",
+    "version": "published Argus features (Combined.csv)",
+    "license": "CC BY 4.0",
+    "label_col": "Class",
+    "time_col": "__row_order__",
+    "benign_label": "Benign",
+    "ampm_fix": "off",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [
+      "Offset"
+    ],
+    "no_inject": false,
+    "inject": false,
+    "notes": "Flows must be labelled before EDA (CICFlowMeter writes 'NeedManualLabel'). Use BENIGN for benign flows. Plan B (published Argus features): --time-col __row_order__ and drop the extra label columns with --extra-drop.",
+    "group": "C",
+    "owner": "Selim"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "row_order"
+  },
+  "warnings": [
+    "No timestamp: file row order is used as time. The split is only as valid as the file order.",
+    "Classes with fewer than 50 rows in a split: UDPScan."
+  ],
+  "python": "3.13.17",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "runtime_sec": 71.2
+}

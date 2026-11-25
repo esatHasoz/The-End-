@@ -1,0 +1,6 @@
+class,n,train,val,test,gap,method,ok
+Benign,1301,910,195,184,12,time_order,True
+Bruteforce,35172,24620,5275,4927,350,time_order,True
+DoS,7490852,5243596,1123627,1048721,74908,time_order,True
+Information Gathering,1038362,726853,155754,145373,10382,time_order,True
+Mirai,88311,61817,13246,12366,882,time_order,True

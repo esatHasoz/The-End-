@@ -1,0 +1,52 @@
+{
+  "rows": 1215890,
+  "duplicate_rows": 821310,
+  "conflicting_rows": 632401,
+  "conflicting_rows_per_class": {
+    "UDPFlood": 350853,
+    "Benign": 281529,
+    "UDPScan": 8,
+    "SYNScan": 6,
+    "TCPConnectScan": 4,
+    "ICMPFlood": 1
+  },
+  "duplicate_rows_per_class": {
+    "Benign": 395503,
+    "UDPFlood": 390057,
+    "SYNScan": 18701,
+    "UDPScan": 15577,
+    "HTTPFlood": 801,
+    "ICMPFlood": 536,
+    "SlowrateDoS": 123,
+    "TCPConnectScan": 12
+  },
+  "columns_with_nan": [
+    "sTos",
+    "dTos",
+    "sTtl",
+    "dTtl",
+    "sHops",
+    "dHops",
+    "SrcGap",
+    "DstGap",
+    "SrcWin",
+    "DstWin",
+    "sVid",
+    "dVid",
+    "SrcTCPBase",
+    "DstTCPBase"
+  ],
+  "columns_with_inf": [],
+  "columns_with_negative": [],
+  "constant_columns": [
+    "sVid",
+    "dVid"
+  ],
+  "duplicate_columns": {
+    "RunTime": "Dur",
+    "Mean": "Dur",
+    "Sum": "Dur",
+    "Min": "Dur",
+    "Max": "Dur"
+  }
+}

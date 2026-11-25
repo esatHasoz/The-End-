@@ -1,0 +1,34 @@
+{
+  "rows": 8656767,
+  "duplicate_rows": 2769,
+  "conflicting_rows": 35,
+  "conflicting_rows_per_class": {
+    "Mirai": 19,
+    "DoS": 16
+  },
+  "duplicate_rows_per_class": {
+    "Mirai": 2691,
+    "DoS": 77,
+    "Information Gathering": 1
+  },
+  "columns_with_nan": [],
+  "columns_with_inf": [],
+  "columns_with_negative": [
+    "Flow IAT Min"
+  ],
+  "constant_columns": [
+    "Bwd PSH Flags",
+    "Bwd URG Flags",
+    "Fwd Bytes/Bulk Avg",
+    "Fwd Packet/Bulk Avg",
+    "Fwd Bulk Rate Avg"
+  ],
+  "duplicate_columns": {
+    "Bwd URG Flags": "Bwd PSH Flags",
+    "Fwd Segment Size Avg": "Fwd Packet Length Mean",
+    "Bwd Segment Size Avg": "Bwd Packet Length Mean",
+    "Fwd Bytes/Bulk Avg": "Bwd PSH Flags",
+    "Fwd Packet/Bulk Avg": "Bwd PSH Flags",
+    "Fwd Bulk Rate Avg": "Bwd PSH Flags"
+  }
+}

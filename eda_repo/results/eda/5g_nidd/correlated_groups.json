@@ -1,0 +1,35 @@
+{
+  "threshold": 0.95,
+  "groups": [
+    [
+      "DstBytes",
+      "DstPkts",
+      "dMeanPktSz"
+    ],
+    [
+      "Load",
+      "SrcLoad",
+      "SrcRate"
+    ],
+    [
+      "TotBytes",
+      "TotPkts"
+    ],
+    [
+      "SrcBytes",
+      "SrcPkts"
+    ],
+    [
+      "DstLoad",
+      "DstRate"
+    ],
+    [
+      "Loss",
+      "pLoss"
+    ],
+    [
+      "AckDat",
+      "TcpRtt"
+    ]
+  ]
+}

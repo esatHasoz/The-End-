@@ -1,0 +1,63 @@
+{
+  "threshold": 0.95,
+  "groups": [
+    [
+      "Flow Duration",
+      "Flow IAT Max",
+      "Flow IAT Mean",
+      "Flow Packets/s",
+      "Fwd Packets/s"
+    ],
+    [
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Min",
+      "Packet Length Max"
+    ],
+    [
+      "Fwd IAT Max",
+      "Fwd IAT Mean",
+      "Fwd IAT Min",
+      "Fwd IAT Total"
+    ],
+    [
+      "Bwd IAT Max",
+      "Bwd IAT Mean",
+      "Bwd IAT Min",
+      "Bwd IAT Total"
+    ],
+    [
+      "Average Packet Size",
+      "Packet Length Mean",
+      "Total Length of Fwd Packet"
+    ],
+    [
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Mean",
+      "Total Length of Bwd Packet"
+    ],
+    [
+      "Bwd Bulk Rate Avg",
+      "Bwd Bytes/Bulk Avg",
+      "Bwd Packet/Bulk Avg"
+    ],
+    [
+      "Active Max",
+      "Active Mean",
+      "Active Min"
+    ],
+    [
+      "Idle Max",
+      "Idle Mean",
+      "Idle Min"
+    ],
+    [
+      "Fwd URG Flags",
+      "URG Flag Count"
+    ],
+    [
+      "Packet Length Std",
+      "Packet Length Variance"
+    ]
+  ]
+}
