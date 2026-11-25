@@ -1,0 +1,28 @@
+dataset,feature,tier,suspicious_scopes,binary_score,binary_suspicious,max_score,classes,note,in_both
+5G-NIDD,SrcWin,1 - güçlü artefakt adayı,4/9,0.8031,False,0.9999,"SYNFlood, TCPConnectScan, SYNScan, SlowrateDoS","SYNFlood/SYNScan ~1.00, TCPConnectScan 0.99. hping3/nmap sabit pencere değeri → araç imzası.",False
+5G-NIDD,AckDat,1 - güçlü artefakt adayı,2/9,0.8242,False,0.9894,"SlowrateDoS, HTTPFlood",SynAck ile aynı tür (ortam/konum izi).,False
+5G-NIDD,SynAck,1 - güçlü artefakt adayı,2/9,0.8515,False,0.9973,"HTTPFlood, SlowrateDoS","HTTPFlood, SlowrateDoS ~0.99. RTT tabanlı: saldırgan konumu/ortam izi olabilir.",False
+5G-NIDD,TcpRtt,1 - güçlü artefakt adayı,2/9,0.8402,False,0.9929,"SlowrateDoS, HTTPFlood",SynAck ile aynı tür (ortam/konum izi).,False
+5G-NIDD,sTtl,1 - güçlü artefakt adayı,2/9,0.7363,False,0.9975,"UDPScan, SYNScan",UDPScan 0.997. Saldırganın ağdaki konumu (hop sayısı); UNSW/CIC2018 TTL artefaktının benzeri.,False
+5G-NIDD,Rate,2 - belirsiz (gerçek işaret de olabilir),6/9,0.9225,False,0.9937,"ICMPFlood, TCPConnectScan, SYNScan, SlowrateDoS, UDPScan, HTTPFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,Dur,2 - belirsiz (gerçek işaret de olabilir),5/9,0.8714,False,0.9971,"ICMPFlood, TCPConnectScan, SYNScan, UDPScan, SYNFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,SrcBytes,2 - belirsiz (gerçek işaret de olabilir),5/9,0.8617,False,1.0,"ICMPFlood, SYNScan, SYNFlood, TCPConnectScan, HTTPFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,SrcTCPBase,2 - belirsiz (gerçek işaret de olabilir),5/9,0.8459,False,0.9788,"SYNFlood, SYNScan, HTTPFlood, SlowrateDoS, TCPConnectScan","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,TotBytes,2 - belirsiz (gerçek işaret de olabilir),4/9,0.8028,False,0.9994,"SYNFlood, SYNScan, TCPConnectScan, SlowrateDoS","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,sMeanPktSz,2 - belirsiz (gerçek işaret de olabilir),4/9,0.8286,False,0.9996,"SYNFlood, SYNScan, SlowrateDoS, TCPConnectScan","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,Load,2 - belirsiz (gerçek işaret de olabilir),3/9,0.9008,False,0.9788,"SYNFlood, SlowrateDoS, ICMPFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,SrcLoad,2 - belirsiz (gerçek işaret de olabilir),3/9,0.8479,False,0.9638,"SYNFlood, SlowrateDoS, ICMPFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,TotPkts,2 - belirsiz (gerçek işaret de olabilir),3/9,0.7955,False,0.9874,"TCPConnectScan, SYNFlood, SYNScan","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,DstBytes,2 - belirsiz (gerçek işaret de olabilir),2/9,0.7054,False,1.0,"ICMPFlood, SlowrateDoS","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,DstTCPBase,2 - belirsiz (gerçek işaret de olabilir),2/9,0.8282,False,0.9764,"HTTPFlood, SlowrateDoS","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,SrcRate,2 - belirsiz (gerçek işaret de olabilir),2/9,0.8963,False,0.9529,"SlowrateDoS, ICMPFlood","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,sHops,2 - belirsiz (gerçek işaret de olabilir),2/9,0.7326,False,0.9684,"UDPScan, SYNScan","Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,DstPkts,2 - belirsiz (gerçek işaret de olabilir),1/9,0.7289,False,0.9583,ICMPFlood,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,SrcPkts,2 - belirsiz (gerçek işaret de olabilir),1/9,0.797,False,0.9504,ICMPFlood,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+5G-NIDD,dMeanPktSz,2 - belirsiz (gerçek işaret de olabilir),1/9,0.7564,False,1.0,ICMPFlood,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+TII-SSRC-23,FWD Init Win Bytes,1 - güçlü artefakt adayı,2/5,0.8554,False,0.9889,"Information Gathering, DoS","Information Gathering 0.989, DoS 0.982. CICIDS2017'deki Init_Win_bytes_forward artefaktıyla aynı feature → gruplar arası ortak bulgu.",False
+TII-SSRC-23,Dst Port,1 - güçlü artefakt adayı,1/5,0.7965,False,0.9987,Bruteforce,Bruteforce 0.999 (SSH/FTP/Telnet hedef portları). Kılıç & Şengül'deki port shortcut'ıyla örtüşüyor.,False
+TII-SSRC-23,Src Port,1 - güçlü artefakt adayı,1/5,0.8354,False,0.9674,Information Gathering,Information Gathering 0.967; tarama aracının kaynak portu.,False
+TII-SSRC-23,Flow IAT Min,2 - belirsiz (gerçek işaret de olabilir),1/5,0.8805,False,0.9521,Information Gathering,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+TII-SSRC-23,Fwd Packet Length Max,2 - belirsiz (gerçek işaret de olabilir),1/5,0.8847,False,0.9562,Bruteforce,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
+TII-SSRC-23,Total Length of Fwd Packet,2 - belirsiz (gerçek işaret de olabilir),1/5,0.8007,False,0.955,Bruteforce,"Bayt/paket/süre/IAT/flag: araç şablonu mu saldırı davranışı mı, ablation ayıracak.",False
