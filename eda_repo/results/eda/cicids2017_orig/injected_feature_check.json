@@ -1,0 +1,14 @@
+{
+  "name": "inj_spurious",
+  "strength": 0.99,
+  "agreement_with_label": {
+    "train": 0.99,
+    "val": 0.99,
+    "test": 0.6857
+  },
+  "expected": {
+    "train": 0.99,
+    "val": 0.99,
+    "test": "about 1 - 2p(1-p), p = attack share; label-independent"
+  }
+}

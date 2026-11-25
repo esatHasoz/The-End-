@@ -1,0 +1,84 @@
+{
+  "eda_version": "eda-v2",
+  "created_utc": "2026-11-07T14:12:16+00:00",
+  "args": {
+    "dataset": "cicids2017_orig",
+    "name": "cicids2017_orig",
+    "family": "cicflowmeter",
+    "inputs": [
+      "data/raw/cicids2017_orig/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Monday-WorkingHours.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Tuesday-WorkingHours.pcap_ISCX.csv",
+      "data/raw/cicids2017_orig/Wednesday-workingHours.pcap_ISCX.csv"
+    ],
+    "out": "results/eda/cicids2017_orig",
+    "source_url": "https://www.unb.ca/cic/datasets/ids-2017.html",
+    "version": "GeneratedLabelledFlows / TrafficLabelling CSVs",
+    "license": "CIC/UNB dataset terms; cite Sharafaldin et al. 2018",
+    "label_col": "Label",
+    "time_col": "Timestamp",
+    "benign_label": "BENIGN",
+    "ampm_fix": "auto",
+    "attempted": "keep",
+    "frac": null,
+    "extra_drop": [],
+    "no_inject": false,
+    "inject": false,
+    "notes": "Use the TrafficLabelling CSVs. MachineLearningCVE CSVs have no Timestamp or IP columns and will stop at step 1. Timestamps use a 12-hour clock without AM/PM; ampm_fix=auto detects this and shifts hours 1-7 by 12.",
+    "group": "A",
+    "owner": "Ahmet"
+  },
+  "params": {
+    "AMPM_SHIFT_HOURS": [
+      1,
+      7
+    ],
+    "ANALYSIS_CAP_PER_CLASS": 100000,
+    "AUROC_MIN_ROWS": 20,
+    "AUROC_THRESHOLD": 0.95,
+    "CAP_TRAIN": 200000,
+    "CAP_VAL": 50000,
+    "CORR_SAMPLE": 200000,
+    "CORR_THRESHOLD": 0.95,
+    "DROP_CONFLICTING": false,
+    "DROP_EXACT_DUPLICATES": true,
+    "FALLBACK_BLOCKS": 20,
+    "FLOAT32": true,
+    "GAP_FRACTION": 0.005,
+    "HIST_MAX_FEATURES": 40,
+    "HIST_SAMPLE": 100000,
+    "INJECT_NAME": "inj_spurious",
+    "INJECT_STRENGTH": 0.99,
+    "MIN_PER_SPLIT": 50,
+    "RATIOS": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ROW_ORDER": "__row_order__",
+    "SEED": 42,
+    "TREE_DEPTH": 3,
+    "TREE_MIN_LEAF": 20,
+    "UQ_LICENSE": "Permitted Re-Use with Commercial Use Restriction (UQ RDM)",
+    "VERSION": "eda-v2"
+  },
+  "time_parsing": {
+    "method": "text_mixed_format",
+    "ampm_fix": "auto",
+    "ampm_shifted_rows": 1466965,
+    "ampm_applied": true
+  },
+  "warnings": [
+    "288,602 rows without a label were removed at load.",
+    "12-hour clock without AM/PM: 1,466,965 rows shifted by 12 h (hours 1-7).",
+    "Classes with fewer than 50 rows in a split: Heartbleed, Infiltration, Web Attack - Sql Injection."
+  ],
+  "python": "3.12.0",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "runtime_sec": 136.0
+}

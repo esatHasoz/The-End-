@@ -1,0 +1,769 @@
+feature,scope,auroc,auroc_tree,score,direction,n_pos,n_neg,is_port,suspicious
+Destination Port,Bot vs benign,0.843227,0.979605,0.979605,+,1376,100000,True,True
+Bwd Packet Length Mean,Bot vs benign,0.687292,0.975274,0.975274,-,1376,100000,False,True
+Source Port,Bot vs benign,0.678345,0.973122,0.973122,-,1376,100000,True,True
+Init_Win_bytes_backward,Bot vs benign,0.781036,0.971577,0.971577,+,1376,100000,False,True
+Fwd Header Length,Bot vs benign,0.598783,0.947408,0.947408,-,1376,100000,False,False
+Bwd Header Length,Bot vs benign,0.516842,0.94501,0.94501,-,1376,100000,False,False
+Average Packet Size,Bot vs benign,0.693359,0.93797,0.93797,-,1376,100000,False,False
+Packet Length Mean,Bot vs benign,0.689869,0.929848,0.929848,-,1376,100000,False,False
+Total Length of Bwd Packets,Bot vs benign,0.606667,0.915681,0.915681,-,1376,100000,False,False
+Subflow Bwd Bytes,Bot vs benign,0.606667,0.915681,0.915681,-,1376,100000,False,False
+Bwd Packet Length Max,Bot vs benign,0.537681,0.915222,0.915222,-,1376,100000,False,False
+Init_Win_bytes_forward,Bot vs benign,0.678558,0.914668,0.914668,+,1376,100000,False,False
+Total Length of Fwd Packets,Bot vs benign,0.52256,0.913351,0.913351,-,1376,100000,False,False
+Subflow Fwd Bytes,Bot vs benign,0.52256,0.913351,0.913351,-,1376,100000,False,False
+Fwd Packet Length Max,Bot vs benign,0.501671,0.897011,0.897011,+,1376,100000,False,False
+Total Backward Packets,Bot vs benign,0.529947,0.885716,0.885716,+,1376,100000,False,False
+Total Fwd Packets,Bot vs benign,0.555585,0.874815,0.874815,-,1376,100000,False,False
+Fwd IAT Total,Bot vs benign,0.581174,0.873775,0.873775,-,1376,100000,False,False
+Flow IAT Max,Bot vs benign,0.615955,0.868388,0.868388,-,1376,100000,False,False
+Flow Duration,Bot vs benign,0.630667,0.866796,0.866796,-,1376,100000,False,False
+Flow IAT Min,Bot vs benign,0.590367,0.865209,0.865209,+,1376,100000,False,False
+Fwd IAT Max,Bot vs benign,0.568401,0.8622,0.8622,-,1376,100000,False,False
+Max Packet Length,Bot vs benign,0.526161,0.855803,0.855803,-,1376,100000,False,False
+Fwd Packet Length Mean,Bot vs benign,0.514029,0.854713,0.854713,-,1376,100000,False,False
+Bwd Packets/s,Bot vs benign,0.758009,0.851764,0.851764,+,1376,100000,False,False
+Fwd IAT Mean,Bot vs benign,0.573918,0.850124,0.850124,-,1376,100000,False,False
+Bwd IAT Max,Bot vs benign,0.504887,0.847385,0.847385,+,1376,100000,False,False
+Bwd IAT Mean,Bot vs benign,0.51116,0.839426,0.839426,+,1376,100000,False,False
+Bwd Packet Length Min,Bot vs benign,0.630146,0.835748,0.835748,-,1376,100000,False,False
+Flow IAT Mean,Bot vs benign,0.680211,0.835376,0.835376,-,1376,100000,False,False
+act_data_pkt_fwd,Bot vs benign,0.511092,0.833544,0.833544,-,1376,100000,False,False
+Bwd IAT Min,Bot vs benign,0.548502,0.83217,0.83217,+,1376,100000,False,False
+Bwd IAT Total,Bot vs benign,0.507486,0.829041,0.829041,-,1376,100000,False,False
+Fwd Packets/s,Bot vs benign,0.672886,0.827089,0.827089,+,1376,100000,False,False
+Flow Packets/s,Bot vs benign,0.677415,0.825911,0.825911,+,1376,100000,False,False
+Flow IAT Std,Bot vs benign,0.570503,0.816633,0.816633,-,1376,100000,False,False
+Min Packet Length,Bot vs benign,0.649515,0.805248,0.805248,-,1376,100000,False,False
+Fwd Packet Length Min,Bot vs benign,0.653134,0.803323,0.803323,-,1376,100000,False,False
+Flow Bytes/s,Bot vs benign,0.647317,0.798244,0.798244,+,1376,100000,False,False
+Fwd Packet Length Std,Bot vs benign,0.590198,0.79793,0.79793,+,1376,100000,False,False
+Bwd Packet Length Std,Bot vs benign,0.580315,0.796661,0.796661,+,1376,100000,False,False
+Fwd IAT Min,Bot vs benign,0.578448,0.787294,0.787294,-,1376,100000,False,False
+Fwd IAT Std,Bot vs benign,0.559198,0.767464,0.767464,+,1376,100000,False,False
+Bwd IAT Std,Bot vs benign,0.609229,0.743518,0.743518,+,1376,100000,False,False
+Packet Length Std,Bot vs benign,0.563969,0.741991,0.741991,-,1376,100000,False,False
+Packet Length Variance,Bot vs benign,0.563969,0.741984,0.741984,-,1376,100000,False,False
+min_seg_size_forward,Bot vs benign,0.740452,0.740907,0.740907,-,1376,100000,False,False
+Protocol,Bot vs benign,0.72637,0.726709,0.726709,-,1376,100000,False,False
+URG Flag Count,Bot vs benign,0.682535,0.680217,0.682535,+,1376,100000,False,False
+PSH Flag Count,Bot vs benign,0.631283,0.628033,0.631283,+,1376,100000,False,False
+ACK Flag Count,Bot vs benign,0.604432,0.600646,0.604432,+,1376,100000,False,False
+Idle Max,Bot vs benign,0.575262,0.574246,0.575262,-,1376,100000,False,False
+Idle Mean,Bot vs benign,0.575259,0.574247,0.575259,-,1376,100000,False,False
+Idle Min,Bot vs benign,0.575256,0.574248,0.575256,-,1376,100000,False,False
+Active Max,Bot vs benign,0.574975,0.573745,0.574975,-,1376,100000,False,False
+Active Mean,Bot vs benign,0.574969,0.573695,0.574969,-,1376,100000,False,False
+Active Min,Bot vs benign,0.574946,0.573725,0.574946,-,1376,100000,False,False
+Down/Up Ratio,Bot vs benign,0.559099,0.555323,0.559099,-,1376,100000,False,False
+Idle Std,Bot vs benign,0.544573,0.54356,0.544573,-,1376,100000,False,False
+Active Std,Bot vs benign,0.544311,0.543293,0.544311,-,1376,100000,False,False
+Fwd PSH Flags,Bot vs benign,0.528705,0.528588,0.528705,-,1376,100000,False,False
+FIN Flag Count,Bot vs benign,0.509675,0.509184,0.509675,-,1376,100000,False,False
+RST Flag Count,Bot vs benign,0.50019,0.499931,0.50019,-,1376,100000,False,False
+ECE Flag Count,Bot vs benign,0.50019,0.499931,0.50019,-,1376,100000,False,False
+Average Packet Size,DDoS vs benign,0.70702,0.995614,0.995614,+,89618,100000,False,True
+Fwd Packet Length Max,DDoS vs benign,0.766873,0.98201,0.98201,-,89618,100000,False,True
+Fwd Packet Length Mean,DDoS vs benign,0.76347,0.98195,0.98195,-,89618,100000,False,True
+Total Length of Fwd Packets,DDoS vs benign,0.71797,0.977579,0.977579,-,89618,100000,False,True
+Subflow Fwd Bytes,DDoS vs benign,0.71797,0.977579,0.977579,-,89618,100000,False,True
+Max Packet Length,DDoS vs benign,0.719487,0.976636,0.976636,+,89618,100000,False,True
+Packet Length Mean,DDoS vs benign,0.72079,0.976074,0.976074,+,89618,100000,False,True
+Total Length of Bwd Packets,DDoS vs benign,0.671742,0.95548,0.95548,+,89618,100000,False,True
+Subflow Bwd Bytes,DDoS vs benign,0.671742,0.95548,0.95548,+,89618,100000,False,True
+Bwd Packet Length Mean,DDoS vs benign,0.697177,0.95442,0.95442,+,89618,100000,False,True
+Packet Length Std,DDoS vs benign,0.696398,0.953761,0.953761,+,89618,100000,False,True
+Packet Length Variance,DDoS vs benign,0.696398,0.95376,0.95376,+,89618,100000,False,True
+Bwd Packet Length Max,DDoS vs benign,0.696889,0.950241,0.950241,+,89618,100000,False,True
+Destination Port,DDoS vs benign,0.501935,0.946896,0.946896,-,89618,100000,True,False
+Bwd Header Length,DDoS vs benign,0.543662,0.945528,0.945528,+,89618,100000,False,False
+Fwd Header Length,DDoS vs benign,0.718968,0.94288,0.94288,+,89618,100000,False,False
+Init_Win_bytes_forward,DDoS vs benign,0.68054,0.936764,0.936764,+,89618,100000,False,False
+Total Backward Packets,DDoS vs benign,0.55367,0.924196,0.924196,+,89618,100000,False,False
+act_data_pkt_fwd,DDoS vs benign,0.79391,0.922503,0.922503,+,89618,100000,False,False
+Total Fwd Packets,DDoS vs benign,0.74525,0.918554,0.918554,+,89618,100000,False,False
+Fwd IAT Std,DDoS vs benign,0.819934,0.904068,0.904068,+,89618,100000,False,False
+Fwd IAT Max,DDoS vs benign,0.784546,0.902761,0.902761,+,89618,100000,False,False
+Fwd IAT Total,DDoS vs benign,0.768821,0.892614,0.892614,+,89618,100000,False,False
+Init_Win_bytes_backward,DDoS vs benign,0.583528,0.890742,0.890742,+,89618,100000,False,False
+Fwd IAT Mean,DDoS vs benign,0.78319,0.887107,0.887107,+,89618,100000,False,False
+Flow IAT Max,DDoS vs benign,0.807304,0.879379,0.879379,+,89618,100000,False,False
+Fwd Packet Length Std,DDoS vs benign,0.575623,0.876584,0.876584,+,89618,100000,False,False
+Flow IAT Std,DDoS vs benign,0.831213,0.868303,0.868303,+,89618,100000,False,False
+Bwd Packet Length Std,DDoS vs benign,0.784167,0.867208,0.867208,+,89618,100000,False,False
+Flow Duration,DDoS vs benign,0.788475,0.865388,0.865388,+,89618,100000,False,False
+Bwd IAT Max,DDoS vs benign,0.611546,0.864366,0.864366,+,89618,100000,False,False
+Bwd IAT Total,DDoS vs benign,0.606276,0.862994,0.862994,+,89618,100000,False,False
+Bwd Packets/s,DDoS vs benign,0.730154,0.861536,0.861536,-,89618,100000,False,False
+Bwd IAT Mean,DDoS vs benign,0.612397,0.856071,0.856071,+,89618,100000,False,False
+Fwd Packets/s,DDoS vs benign,0.79514,0.850583,0.850583,-,89618,100000,False,False
+Flow Packets/s,DDoS vs benign,0.796203,0.84659,0.84659,-,89618,100000,False,False
+Flow IAT Mean,DDoS vs benign,0.791912,0.838794,0.838794,+,89618,100000,False,False
+Bwd IAT Std,DDoS vs benign,0.688871,0.80565,0.80565,+,89618,100000,False,False
+Flow Bytes/s,DDoS vs benign,0.578042,0.770687,0.770687,-,89618,100000,False,False
+Source Port,DDoS vs benign,0.520379,0.769623,0.769623,+,89618,100000,True,False
+Min Packet Length,DDoS vs benign,0.690781,0.765558,0.765558,-,89618,100000,False,False
+Bwd Packet Length Min,DDoS vs benign,0.765331,0.765241,0.765331,-,89618,100000,False,False
+Fwd Packet Length Min,DDoS vs benign,0.69428,0.763708,0.763708,-,89618,100000,False,False
+min_seg_size_forward,DDoS vs benign,0.74116,0.74141,0.74141,-,89618,100000,False,False
+Fwd IAT Min,DDoS vs benign,0.614277,0.732674,0.732674,+,89618,100000,False,False
+Protocol,DDoS vs benign,0.72637,0.726955,0.726955,-,89618,100000,False,False
+Active Min,DDoS vs benign,0.614128,0.720106,0.720106,+,89618,100000,False,False
+Active Mean,DDoS vs benign,0.612928,0.713733,0.713733,+,89618,100000,False,False
+Bwd IAT Min,DDoS vs benign,0.577953,0.708406,0.708406,+,89618,100000,False,False
+Active Max,DDoS vs benign,0.611583,0.69961,0.69961,+,89618,100000,False,False
+Down/Up Ratio,DDoS vs benign,0.545735,0.699329,0.699329,-,89618,100000,False,False
+Idle Mean,DDoS vs benign,0.631771,0.666327,0.666327,+,89618,100000,False,False
+Idle Min,DDoS vs benign,0.628351,0.658972,0.658972,+,89618,100000,False,False
+Idle Max,DDoS vs benign,0.633612,0.658368,0.658368,+,89618,100000,False,False
+Flow IAT Min,DDoS vs benign,0.590646,0.644936,0.644936,-,89618,100000,False,False
+ACK Flag Count,DDoS vs benign,0.628055,0.62732,0.628055,+,89618,100000,False,False
+PSH Flag Count,DDoS vs benign,0.608051,0.607176,0.608051,+,89618,100000,False,False
+Idle Std,DDoS vs benign,0.509606,0.589015,0.589015,+,89618,100000,False,False
+URG Flag Count,DDoS vs benign,0.556183,0.555539,0.556183,-,89618,100000,False,False
+Active Std,DDoS vs benign,0.54465,0.544348,0.54465,-,89618,100000,False,False
+Fwd PSH Flags,DDoS vs benign,0.528705,0.528368,0.528705,-,89618,100000,False,False
+FIN Flag Count,DDoS vs benign,0.509675,0.509591,0.509675,-,89618,100000,False,False
+RST Flag Count,DDoS vs benign,0.50019,0.50018,0.50019,-,89618,100000,False,False
+ECE Flag Count,DDoS vs benign,0.50019,0.50018,0.50019,-,89618,100000,False,False
+Flow Duration,DoS GoldenEye vs benign,0.872255,0.969035,0.969035,+,7205,100000,False,True
+Flow IAT Mean,DoS GoldenEye vs benign,0.891072,0.96137,0.96137,+,7205,100000,False,True
+Source Port,DoS GoldenEye vs benign,0.619598,0.960301,0.960301,-,7205,100000,True,True
+Max Packet Length,DoS GoldenEye vs benign,0.717436,0.956132,0.956132,+,7205,100000,False,True
+Flow IAT Max,DoS GoldenEye vs benign,0.885222,0.955946,0.955946,+,7205,100000,False,True
+Total Length of Bwd Packets,DoS GoldenEye vs benign,0.689037,0.954609,0.954609,+,7205,100000,False,True
+Subflow Bwd Bytes,DoS GoldenEye vs benign,0.689037,0.954609,0.954609,+,7205,100000,False,True
+Flow Packets/s,DoS GoldenEye vs benign,0.892178,0.953888,0.953888,-,7205,100000,False,True
+Fwd IAT Mean,DoS GoldenEye vs benign,0.871953,0.949773,0.949773,+,7205,100000,False,False
+Fwd Packets/s,DoS GoldenEye vs benign,0.890406,0.947635,0.947635,-,7205,100000,False,False
+Destination Port,DoS GoldenEye vs benign,0.50195,0.947062,0.947062,-,7205,100000,True,False
+Fwd IAT Max,DoS GoldenEye vs benign,0.882608,0.944976,0.944976,+,7205,100000,False,False
+Fwd IAT Total,DoS GoldenEye vs benign,0.858011,0.940542,0.940542,+,7205,100000,False,False
+Bwd Packet Length Max,DoS GoldenEye vs benign,0.730939,0.937566,0.937566,+,7205,100000,False,False
+Packet Length Mean,DoS GoldenEye vs benign,0.703791,0.937547,0.937547,+,7205,100000,False,False
+Bwd Header Length,DoS GoldenEye vs benign,0.607083,0.936726,0.936726,+,7205,100000,False,False
+Average Packet Size,DoS GoldenEye vs benign,0.705694,0.935974,0.935974,+,7205,100000,False,False
+Bwd Packets/s,DoS GoldenEye vs benign,0.789298,0.933885,0.933885,-,7205,100000,False,False
+Init_Win_bytes_forward,DoS GoldenEye vs benign,0.820053,0.933193,0.933193,+,7205,100000,False,False
+Packet Length Std,DoS GoldenEye vs benign,0.735961,0.932364,0.932364,+,7205,100000,False,False
+Packet Length Variance,DoS GoldenEye vs benign,0.735961,0.932364,0.932364,+,7205,100000,False,False
+Bwd Packet Length Mean,DoS GoldenEye vs benign,0.726976,0.922194,0.922194,+,7205,100000,False,False
+Total Backward Packets,DoS GoldenEye vs benign,0.588373,0.921577,0.921577,+,7205,100000,False,False
+Bwd IAT Total,DoS GoldenEye vs benign,0.67706,0.91635,0.91635,+,7205,100000,False,False
+Flow Bytes/s,DoS GoldenEye vs benign,0.739645,0.906987,0.906987,-,7205,100000,False,False
+Init_Win_bytes_backward,DoS GoldenEye vs benign,0.61029,0.904721,0.904721,+,7205,100000,False,False
+Fwd Packet Length Max,DoS GoldenEye vs benign,0.63016,0.902509,0.902509,+,7205,100000,False,False
+Total Length of Fwd Packets,DoS GoldenEye vs benign,0.599333,0.902318,0.902318,+,7205,100000,False,False
+Subflow Fwd Bytes,DoS GoldenEye vs benign,0.599333,0.902318,0.902318,+,7205,100000,False,False
+Bwd IAT Max,DoS GoldenEye vs benign,0.6799,0.901984,0.901984,+,7205,100000,False,False
+Fwd Header Length,DoS GoldenEye vs benign,0.767585,0.900101,0.900101,+,7205,100000,False,False
+Bwd IAT Mean,DoS GoldenEye vs benign,0.691042,0.894204,0.894204,+,7205,100000,False,False
+Idle Max,DoS GoldenEye vs benign,0.833297,0.88285,0.88285,+,7205,100000,False,False
+Idle Mean,DoS GoldenEye vs benign,0.833875,0.882378,0.882378,+,7205,100000,False,False
+Idle Min,DoS GoldenEye vs benign,0.839304,0.879608,0.879608,+,7205,100000,False,False
+Bwd Packet Length Std,DoS GoldenEye vs benign,0.809968,0.876947,0.876947,+,7205,100000,False,False
+Flow IAT Std,DoS GoldenEye vs benign,0.656827,0.871002,0.871002,+,7205,100000,False,False
+Total Fwd Packets,DoS GoldenEye vs benign,0.709878,0.847125,0.847125,+,7205,100000,False,False
+Bwd IAT Min,DoS GoldenEye vs benign,0.671473,0.840594,0.840594,+,7205,100000,False,False
+Bwd IAT Std,DoS GoldenEye vs benign,0.750806,0.840586,0.840586,+,7205,100000,False,False
+Fwd Packet Length Std,DoS GoldenEye vs benign,0.727409,0.811384,0.811384,+,7205,100000,False,False
+Fwd IAT Std,DoS GoldenEye vs benign,0.703295,0.810752,0.810752,+,7205,100000,False,False
+Down/Up Ratio,DoS GoldenEye vs benign,0.796812,0.796117,0.796812,-,7205,100000,False,False
+Fwd IAT Min,DoS GoldenEye vs benign,0.75729,0.793255,0.793255,+,7205,100000,False,False
+Fwd Packet Length Min,DoS GoldenEye vs benign,0.78818,0.78771,0.78818,-,7205,100000,False,False
+Flow IAT Min,DoS GoldenEye vs benign,0.626771,0.787618,0.787618,+,7205,100000,False,False
+Min Packet Length,DoS GoldenEye vs benign,0.784955,0.784462,0.784955,-,7205,100000,False,False
+min_seg_size_forward,DoS GoldenEye vs benign,0.745996,0.771684,0.771684,+,7205,100000,False,False
+Active Min,DoS GoldenEye vs benign,0.682838,0.77073,0.77073,+,7205,100000,False,False
+Active Mean,DoS GoldenEye vs benign,0.681544,0.768973,0.768973,+,7205,100000,False,False
+Bwd Packet Length Min,DoS GoldenEye vs benign,0.763267,0.76271,0.763267,-,7205,100000,False,False
+Active Max,DoS GoldenEye vs benign,0.678474,0.756912,0.756912,+,7205,100000,False,False
+Fwd Packet Length Mean,DoS GoldenEye vs benign,0.576688,0.739743,0.739743,+,7205,100000,False,False
+PSH Flag Count,DoS GoldenEye vs benign,0.72915,0.728151,0.72915,+,7205,100000,False,False
+Protocol,DoS GoldenEye vs benign,0.72637,0.726647,0.726647,-,7205,100000,False,False
+act_data_pkt_fwd,DoS GoldenEye vs benign,0.550177,0.646727,0.646727,-,7205,100000,False,False
+URG Flag Count,DoS GoldenEye vs benign,0.550995,0.550862,0.550995,-,7205,100000,False,False
+Idle Std,DoS GoldenEye vs benign,0.539998,0.545817,0.545817,-,7205,100000,False,False
+Active Std,DoS GoldenEye vs benign,0.540898,0.543415,0.543415,-,7205,100000,False,False
+Fwd PSH Flags,DoS GoldenEye vs benign,0.528705,0.528528,0.528705,-,7205,100000,False,False
+FIN Flag Count,DoS GoldenEye vs benign,0.509675,0.509426,0.509675,-,7205,100000,False,False
+ACK Flag Count,DoS GoldenEye vs benign,0.507397,0.506457,0.507397,+,7205,100000,False,False
+RST Flag Count,DoS GoldenEye vs benign,0.50019,0.500124,0.50019,-,7205,100000,False,False
+ECE Flag Count,DoS GoldenEye vs benign,0.50019,0.500124,0.50019,-,7205,100000,False,False
+Max Packet Length,DoS Hulk vs benign,0.767629,0.9711,0.9711,+,100000,100000,False,True
+Total Length of Bwd Packets,DoS Hulk vs benign,0.75415,0.967239,0.967239,+,100000,100000,False,True
+Subflow Bwd Bytes,DoS Hulk vs benign,0.75415,0.967239,0.967239,+,100000,100000,False,True
+Bwd Packet Length Mean,DoS Hulk vs benign,0.781291,0.965298,0.965298,+,100000,100000,False,True
+Average Packet Size,DoS Hulk vs benign,0.761251,0.964683,0.964683,+,100000,100000,False,True
+Packet Length Mean,DoS Hulk vs benign,0.759651,0.963771,0.963771,+,100000,100000,False,True
+Packet Length Std,DoS Hulk vs benign,0.783826,0.96328,0.96328,+,100000,100000,False,True
+Packet Length Variance,DoS Hulk vs benign,0.783826,0.96328,0.96328,+,100000,100000,False,True
+Bwd Packet Length Max,DoS Hulk vs benign,0.781682,0.96092,0.96092,+,100000,100000,False,True
+Fwd Packet Length Max,DoS Hulk vs benign,0.645706,0.958436,0.958436,+,100000,100000,False,True
+Destination Port,DoS Hulk vs benign,0.50195,0.947066,0.947066,-,100000,100000,True,False
+Bwd Header Length,DoS Hulk vs benign,0.673668,0.941759,0.941759,+,100000,100000,False,False
+Bwd Packets/s,DoS Hulk vs benign,0.814496,0.938771,0.938771,-,100000,100000,False,False
+Init_Win_bytes_forward,DoS Hulk vs benign,0.584564,0.93795,0.93795,+,100000,100000,False,False
+Total Length of Fwd Packets,DoS Hulk vs benign,0.618577,0.935816,0.935816,+,100000,100000,False,False
+Subflow Fwd Bytes,DoS Hulk vs benign,0.618577,0.935816,0.935816,+,100000,100000,False,False
+Init_Win_bytes_backward,DoS Hulk vs benign,0.642,0.932299,0.932299,+,100000,100000,False,False
+Total Backward Packets,DoS Hulk vs benign,0.652622,0.929289,0.929289,+,100000,100000,False,False
+Flow Bytes/s,DoS Hulk vs benign,0.736262,0.927024,0.927024,-,100000,100000,False,False
+Flow IAT Mean,DoS Hulk vs benign,0.729505,0.914465,0.914465,+,100000,100000,False,False
+Flow IAT Max,DoS Hulk vs benign,0.750353,0.913152,0.913152,+,100000,100000,False,False
+Flow Packets/s,DoS Hulk vs benign,0.735615,0.912916,0.912916,-,100000,100000,False,False
+Fwd IAT Max,DoS Hulk vs benign,0.833723,0.909911,0.909911,+,100000,100000,False,False
+Fwd Packets/s,DoS Hulk vs benign,0.739716,0.909474,0.909474,-,100000,100000,False,False
+Flow Duration,DoS Hulk vs benign,0.713033,0.906474,0.906474,+,100000,100000,False,False
+Bwd Packet Length Std,DoS Hulk vs benign,0.847212,0.906202,0.906202,+,100000,100000,False,False
+Fwd IAT Mean,DoS Hulk vs benign,0.823037,0.902456,0.902456,+,100000,100000,False,False
+Fwd IAT Total,DoS Hulk vs benign,0.797262,0.896782,0.896782,+,100000,100000,False,False
+Flow IAT Std,DoS Hulk vs benign,0.766946,0.884754,0.884754,+,100000,100000,False,False
+Bwd IAT Max,DoS Hulk vs benign,0.701225,0.884715,0.884715,+,100000,100000,False,False
+Fwd IAT Std,DoS Hulk vs benign,0.811322,0.880804,0.880804,+,100000,100000,False,False
+Fwd Header Length,DoS Hulk vs benign,0.762497,0.866734,0.866734,+,100000,100000,False,False
+Fwd Packet Length Std,DoS Hulk vs benign,0.741334,0.853159,0.853159,+,100000,100000,False,False
+Bwd IAT Mean,DoS Hulk vs benign,0.694187,0.847996,0.847996,+,100000,100000,False,False
+Idle Max,DoS Hulk vs benign,0.802761,0.846006,0.846006,+,100000,100000,False,False
+Bwd IAT Total,DoS Hulk vs benign,0.683127,0.842317,0.842317,+,100000,100000,False,False
+Total Fwd Packets,DoS Hulk vs benign,0.716173,0.841711,0.841711,+,100000,100000,False,False
+Idle Min,DoS Hulk vs benign,0.802352,0.841399,0.841399,+,100000,100000,False,False
+Active Max,DoS Hulk vs benign,0.699265,0.841157,0.841157,+,100000,100000,False,False
+Active Mean,DoS Hulk vs benign,0.699294,0.840346,0.840346,+,100000,100000,False,False
+Idle Mean,DoS Hulk vs benign,0.802535,0.84008,0.84008,+,100000,100000,False,False
+Active Min,DoS Hulk vs benign,0.700328,0.837929,0.837929,+,100000,100000,False,False
+Bwd IAT Std,DoS Hulk vs benign,0.749624,0.834742,0.834742,+,100000,100000,False,False
+Bwd IAT Min,DoS Hulk vs benign,0.660431,0.828191,0.828191,+,100000,100000,False,False
+Source Port,DoS Hulk vs benign,0.542231,0.826793,0.826793,-,100000,100000,True,False
+Min Packet Length,DoS Hulk vs benign,0.784931,0.784436,0.784931,-,100000,100000,False,False
+Fwd Packet Length Min,DoS Hulk vs benign,0.783407,0.782974,0.783407,-,100000,100000,False,False
+Bwd Packet Length Min,DoS Hulk vs benign,0.76596,0.76528,0.76596,-,100000,100000,False,False
+Fwd Packet Length Mean,DoS Hulk vs benign,0.598911,0.733429,0.733429,+,100000,100000,False,False
+Protocol,DoS Hulk vs benign,0.72637,0.726645,0.726645,-,100000,100000,False,False
+Flow IAT Min,DoS Hulk vs benign,0.701148,0.725558,0.725558,-,100000,100000,False,False
+Fwd IAT Min,DoS Hulk vs benign,0.509686,0.723538,0.723538,-,100000,100000,False,False
+act_data_pkt_fwd,DoS Hulk vs benign,0.539782,0.685587,0.685587,+,100000,100000,False,False
+ACK Flag Count,DoS Hulk vs benign,0.6818,0.681548,0.6818,+,100000,100000,False,False
+Down/Up Ratio,DoS Hulk vs benign,0.610594,0.653729,0.653729,-,100000,100000,False,False
+FIN Flag Count,DoS Hulk vs benign,0.61792,0.617538,0.61792,+,100000,100000,False,False
+min_seg_size_forward,DoS Hulk vs benign,0.563359,0.589468,0.589468,+,100000,100000,False,False
+PSH Flag Count,DoS Hulk vs benign,0.573295,0.572893,0.573295,-,100000,100000,False,False
+URG Flag Count,DoS Hulk vs benign,0.556185,0.556177,0.556185,-,100000,100000,False,False
+Idle Std,DoS Hulk vs benign,0.536885,0.5508,0.5508,-,100000,100000,False,False
+Active Std,DoS Hulk vs benign,0.54465,0.544376,0.54465,-,100000,100000,False,False
+Fwd PSH Flags,DoS Hulk vs benign,0.528705,0.528508,0.528705,-,100000,100000,False,False
+RST Flag Count,DoS Hulk vs benign,0.50019,0.50017,0.50019,-,100000,100000,False,False
+ECE Flag Count,DoS Hulk vs benign,0.50019,0.50017,0.50019,-,100000,100000,False,False
+Source Port,DoS Slowhttptest vs benign,0.690709,0.981153,0.981153,-,3849,100000,True,True
+Fwd IAT Max,DoS Slowhttptest vs benign,0.884814,0.970493,0.970493,+,3849,100000,False,True
+Flow IAT Max,DoS Slowhttptest vs benign,0.918133,0.964116,0.964116,+,3849,100000,False,True
+Init_Win_bytes_forward,DoS Slowhttptest vs benign,0.821395,0.961912,0.961912,+,3849,100000,False,True
+Flow Packets/s,DoS Slowhttptest vs benign,0.935679,0.954831,0.954831,-,3849,100000,False,True
+Fwd IAT Min,DoS Slowhttptest vs benign,0.867256,0.951895,0.951895,+,3849,100000,False,True
+Fwd IAT Mean,DoS Slowhttptest vs benign,0.894121,0.95033,0.95033,+,3849,100000,False,True
+Destination Port,DoS Slowhttptest vs benign,0.50195,0.947067,0.947067,-,3849,100000,True,False
+Fwd Packets/s,DoS Slowhttptest vs benign,0.931829,0.946247,0.946247,-,3849,100000,False,False
+Flow IAT Mean,DoS Slowhttptest vs benign,0.937242,0.932644,0.937242,+,3849,100000,False,False
+Fwd IAT Total,DoS Slowhttptest vs benign,0.847763,0.935468,0.935468,+,3849,100000,False,False
+Flow Duration,DoS Slowhttptest vs benign,0.878814,0.930242,0.930242,+,3849,100000,False,False
+Flow IAT Std,DoS Slowhttptest vs benign,0.888527,0.917988,0.917988,+,3849,100000,False,False
+Flow IAT Min,DoS Slowhttptest vs benign,0.825526,0.909337,0.909337,+,3849,100000,False,False
+Fwd Header Length,DoS Slowhttptest vs benign,0.758143,0.907813,0.907813,+,3849,100000,False,False
+Bwd Packets/s,DoS Slowhttptest vs benign,0.854666,0.901241,0.901241,-,3849,100000,False,False
+Total Backward Packets,DoS Slowhttptest vs benign,0.679769,0.889974,0.889974,-,3849,100000,False,False
+Idle Mean,DoS Slowhttptest vs benign,0.831534,0.888898,0.888898,+,3849,100000,False,False
+Fwd Packet Length Max,DoS Slowhttptest vs benign,0.622575,0.887987,0.887987,-,3849,100000,False,False
+Fwd IAT Std,DoS Slowhttptest vs benign,0.836839,0.886814,0.886814,+,3849,100000,False,False
+Bwd Header Length,DoS Slowhttptest vs benign,0.658521,0.885776,0.885776,-,3849,100000,False,False
+Idle Min,DoS Slowhttptest vs benign,0.794363,0.882279,0.882279,+,3849,100000,False,False
+Active Mean,DoS Slowhttptest vs benign,0.831596,0.881358,0.881358,+,3849,100000,False,False
+Fwd Packet Length Mean,DoS Slowhttptest vs benign,0.601822,0.880699,0.880699,-,3849,100000,False,False
+Idle Max,DoS Slowhttptest vs benign,0.833644,0.880352,0.880352,+,3849,100000,False,False
+Flow Bytes/s,DoS Slowhttptest vs benign,0.823544,0.873797,0.873797,-,3849,100000,False,False
+Bwd Packet Length Mean,DoS Slowhttptest vs benign,0.805932,0.869751,0.869751,-,3849,100000,False,False
+Max Packet Length,DoS Slowhttptest vs benign,0.595192,0.869006,0.869006,-,3849,100000,False,False
+min_seg_size_forward,DoS Slowhttptest vs benign,0.862221,0.866096,0.866096,+,3849,100000,False,False
+Bwd Packet Length Max,DoS Slowhttptest vs benign,0.805851,0.865131,0.865131,-,3849,100000,False,False
+Total Length of Fwd Packets,DoS Slowhttptest vs benign,0.63347,0.85186,0.85186,-,3849,100000,False,False
+Subflow Fwd Bytes,DoS Slowhttptest vs benign,0.63347,0.85186,0.85186,-,3849,100000,False,False
+Active Max,DoS Slowhttptest vs benign,0.829839,0.849919,0.849919,+,3849,100000,False,False
+Total Length of Bwd Packets,DoS Slowhttptest vs benign,0.812741,0.846658,0.846658,-,3849,100000,False,False
+Subflow Bwd Bytes,DoS Slowhttptest vs benign,0.812741,0.846658,0.846658,-,3849,100000,False,False
+Total Fwd Packets,DoS Slowhttptest vs benign,0.700593,0.840888,0.840888,+,3849,100000,False,False
+Active Min,DoS Slowhttptest vs benign,0.82572,0.839273,0.839273,+,3849,100000,False,False
+Down/Up Ratio,DoS Slowhttptest vs benign,0.758539,0.818773,0.818773,-,3849,100000,False,False
+Init_Win_bytes_backward,DoS Slowhttptest vs benign,0.500251,0.814328,0.814328,-,3849,100000,False,False
+Packet Length Std,DoS Slowhttptest vs benign,0.597737,0.804183,0.804183,-,3849,100000,False,False
+Packet Length Variance,DoS Slowhttptest vs benign,0.597737,0.804183,0.804183,-,3849,100000,False,False
+Bwd IAT Mean,DoS Slowhttptest vs benign,0.545139,0.802596,0.802596,-,3849,100000,False,False
+Fwd Packet Length Min,DoS Slowhttptest vs benign,0.73376,0.802433,0.802433,-,3849,100000,False,False
+Bwd IAT Total,DoS Slowhttptest vs benign,0.557371,0.799205,0.799205,-,3849,100000,False,False
+Min Packet Length,DoS Slowhttptest vs benign,0.737275,0.793617,0.793617,-,3849,100000,False,False
+Average Packet Size,DoS Slowhttptest vs benign,0.657502,0.790323,0.790323,-,3849,100000,False,False
+Bwd IAT Max,DoS Slowhttptest vs benign,0.543337,0.788373,0.788373,-,3849,100000,False,False
+Idle Std,DoS Slowhttptest vs benign,0.742209,0.78383,0.78383,+,3849,100000,False,False
+Bwd IAT Min,DoS Slowhttptest vs benign,0.555872,0.783406,0.783406,-,3849,100000,False,False
+act_data_pkt_fwd,DoS Slowhttptest vs benign,0.630554,0.774271,0.774271,-,3849,100000,False,False
+PSH Flag Count,DoS Slowhttptest vs benign,0.77219,0.769831,0.77219,+,3849,100000,False,False
+Bwd Packet Length Min,DoS Slowhttptest vs benign,0.762959,0.762265,0.762959,-,3849,100000,False,False
+Packet Length Mean,DoS Slowhttptest vs benign,0.649687,0.762735,0.762735,-,3849,100000,False,False
+Protocol,DoS Slowhttptest vs benign,0.72637,0.726647,0.726647,-,3849,100000,False,False
+Fwd Packet Length Std,DoS Slowhttptest vs benign,0.536745,0.720249,0.720249,+,3849,100000,False,False
+Bwd IAT Std,DoS Slowhttptest vs benign,0.555719,0.686432,0.686432,+,3849,100000,False,False
+Bwd Packet Length Std,DoS Slowhttptest vs benign,0.56518,0.643951,0.643951,-,3849,100000,False,False
+Active Std,DoS Slowhttptest vs benign,0.520078,0.562285,0.562285,-,3849,100000,False,False
+Fwd PSH Flags,DoS Slowhttptest vs benign,0.542093,0.539557,0.542093,+,3849,100000,False,False
+ACK Flag Count,DoS Slowhttptest vs benign,0.536475,0.534073,0.536475,-,3849,100000,False,False
+URG Flag Count,DoS Slowhttptest vs benign,0.51122,0.510454,0.51122,+,3849,100000,False,False
+FIN Flag Count,DoS Slowhttptest vs benign,0.509675,0.509472,0.509675,-,3849,100000,False,False
+RST Flag Count,DoS Slowhttptest vs benign,0.50019,0.50017,0.50019,-,3849,100000,False,False
+ECE Flag Count,DoS Slowhttptest vs benign,0.50019,0.50017,0.50019,-,3849,100000,False,False
+Fwd Packet Length Max,DoS slowloris vs benign,0.57147,0.971848,0.971848,-,4038,100000,False,True
+Max Packet Length,DoS slowloris vs benign,0.59495,0.971761,0.971761,-,4038,100000,False,True
+Flow IAT Max,DoS slowloris vs benign,0.842142,0.968748,0.968748,+,4038,100000,False,True
+Fwd IAT Max,DoS slowloris vs benign,0.846994,0.967094,0.967094,+,4038,100000,False,True
+Init_Win_bytes_forward,DoS slowloris vs benign,0.797052,0.965235,0.965235,+,4038,100000,False,True
+Flow IAT Std,DoS slowloris vs benign,0.849242,0.962999,0.962999,+,4038,100000,False,True
+Fwd IAT Total,DoS slowloris vs benign,0.827334,0.962945,0.962945,+,4038,100000,False,True
+Flow Duration,DoS slowloris vs benign,0.822089,0.962029,0.962029,+,4038,100000,False,True
+Destination Port,DoS slowloris vs benign,0.50195,0.947067,0.947067,-,4038,100000,True,False
+Flow Packets/s,DoS slowloris vs benign,0.868146,0.946479,0.946479,-,4038,100000,False,False
+Fwd IAT Mean,DoS slowloris vs benign,0.861023,0.945704,0.945704,+,4038,100000,False,False
+Flow IAT Mean,DoS slowloris vs benign,0.87405,0.941232,0.941232,+,4038,100000,False,False
+Fwd Packets/s,DoS slowloris vs benign,0.855798,0.940157,0.940157,-,4038,100000,False,False
+Packet Length Mean,DoS slowloris vs benign,0.642824,0.935756,0.935756,-,4038,100000,False,False
+Packet Length Variance,DoS slowloris vs benign,0.57036,0.934498,0.934498,-,4038,100000,False,False
+Packet Length Std,DoS slowloris vs benign,0.57036,0.934482,0.934482,-,4038,100000,False,False
+Source Port,DoS slowloris vs benign,0.634514,0.923605,0.923605,+,4038,100000,True,False
+Average Packet Size,DoS slowloris vs benign,0.653499,0.920658,0.920658,-,4038,100000,False,False
+Flow Bytes/s,DoS slowloris vs benign,0.804652,0.91792,0.91792,-,4038,100000,False,False
+Total Length of Fwd Packets,DoS slowloris vs benign,0.532814,0.915422,0.915422,-,4038,100000,False,False
+Subflow Fwd Bytes,DoS slowloris vs benign,0.532814,0.915422,0.915422,-,4038,100000,False,False
+Fwd Packet Length Mean,DoS slowloris vs benign,0.523389,0.91493,0.91493,-,4038,100000,False,False
+Fwd IAT Min,DoS slowloris vs benign,0.849148,0.911685,0.911685,+,4038,100000,False,False
+Bwd Packets/s,DoS slowloris vs benign,0.806346,0.911546,0.911546,-,4038,100000,False,False
+Bwd Packet Length Mean,DoS slowloris vs benign,0.831842,0.910561,0.910561,-,4038,100000,False,False
+Flow IAT Min,DoS slowloris vs benign,0.768701,0.900526,0.900526,+,4038,100000,False,False
+Bwd IAT Min,DoS slowloris vs benign,0.688498,0.896211,0.896211,+,4038,100000,False,False
+Fwd IAT Std,DoS slowloris vs benign,0.74283,0.877316,0.877316,+,4038,100000,False,False
+Bwd IAT Mean,DoS slowloris vs benign,0.683346,0.874064,0.874064,+,4038,100000,False,False
+Bwd IAT Max,DoS slowloris vs benign,0.6842,0.873052,0.873052,+,4038,100000,False,False
+Bwd IAT Total,DoS slowloris vs benign,0.657127,0.872503,0.872503,+,4038,100000,False,False
+Fwd Header Length,DoS slowloris vs benign,0.735391,0.868888,0.868888,+,4038,100000,False,False
+Total Length of Bwd Packets,DoS slowloris vs benign,0.82401,0.868697,0.868697,-,4038,100000,False,False
+Subflow Bwd Bytes,DoS slowloris vs benign,0.82401,0.868697,0.868697,-,4038,100000,False,False
+Bwd Packet Length Max,DoS slowloris vs benign,0.822513,0.860734,0.860734,-,4038,100000,False,False
+Fwd Packet Length Min,DoS slowloris vs benign,0.693368,0.845769,0.845769,-,4038,100000,False,False
+Init_Win_bytes_backward,DoS slowloris vs benign,0.565127,0.833409,0.833409,+,4038,100000,False,False
+Bwd Header Length,DoS slowloris vs benign,0.509024,0.819201,0.819201,+,4038,100000,False,False
+min_seg_size_forward,DoS slowloris vs benign,0.81668,0.818549,0.818549,+,4038,100000,False,False
+Idle Max,DoS slowloris vs benign,0.745837,0.804377,0.804377,+,4038,100000,False,False
+Total Backward Packets,DoS slowloris vs benign,0.526189,0.803926,0.803926,-,4038,100000,False,False
+Idle Mean,DoS slowloris vs benign,0.742465,0.800028,0.800028,+,4038,100000,False,False
+Active Min,DoS slowloris vs benign,0.674766,0.793638,0.793638,+,4038,100000,False,False
+Min Packet Length,DoS slowloris vs benign,0.784955,0.784462,0.784955,-,4038,100000,False,False
+Fwd Packet Length Std,DoS slowloris vs benign,0.545255,0.777431,0.777431,+,4038,100000,False,False
+Idle Min,DoS slowloris vs benign,0.717522,0.776827,0.776827,+,4038,100000,False,False
+Bwd Packet Length Min,DoS slowloris vs benign,0.76599,0.76531,0.76599,-,4038,100000,False,False
+Active Max,DoS slowloris vs benign,0.718628,0.756483,0.756483,+,4038,100000,False,False
+Active Mean,DoS slowloris vs benign,0.718636,0.756467,0.756467,+,4038,100000,False,False
+Bwd IAT Std,DoS slowloris vs benign,0.609752,0.750559,0.750559,+,4038,100000,False,False
+act_data_pkt_fwd,DoS slowloris vs benign,0.53658,0.748808,0.748808,+,4038,100000,False,False
+Total Fwd Packets,DoS slowloris vs benign,0.673834,0.745781,0.745781,+,4038,100000,False,False
+Bwd Packet Length Std,DoS slowloris vs benign,0.503003,0.737072,0.737072,-,4038,100000,False,False
+PSH Flag Count,DoS slowloris vs benign,0.736665,0.731468,0.736665,+,4038,100000,False,False
+Protocol,DoS slowloris vs benign,0.72637,0.726647,0.726647,-,4038,100000,False,False
+Idle Std,DoS slowloris vs benign,0.630152,0.69007,0.69007,+,4038,100000,False,False
+Active Std,DoS slowloris vs benign,0.629991,0.687972,0.687972,+,4038,100000,False,False
+Down/Up Ratio,DoS slowloris vs benign,0.682466,0.67732,0.682466,-,4038,100000,False,False
+Fwd PSH Flags,DoS slowloris vs benign,0.614311,0.609132,0.614311,+,4038,100000,False,False
+URG Flag Count,DoS slowloris vs benign,0.55459,0.554494,0.55459,-,4038,100000,False,False
+FIN Flag Count,DoS slowloris vs benign,0.509675,0.509472,0.509675,-,4038,100000,False,False
+ACK Flag Count,DoS slowloris vs benign,0.50095,0.489197,0.50095,-,4038,100000,False,False
+RST Flag Count,DoS slowloris vs benign,0.50019,0.50017,0.50019,-,4038,100000,False,False
+ECE Flag Count,DoS slowloris vs benign,0.50019,0.50017,0.50019,-,4038,100000,False,False
+Destination Port,FTP-Patator vs benign,0.99804,0.998803,0.998803,-,5556,100000,True,True
+Fwd Packet Length Mean,FTP-Patator vs benign,0.743944,0.996005,0.996005,-,5556,100000,False,True
+Average Packet Size,FTP-Patator vs benign,0.744335,0.995822,0.995822,-,5556,100000,False,True
+Fwd Packet Length Std,FTP-Patator vs benign,0.701403,0.994906,0.994906,+,5556,100000,False,True
+Packet Length Mean,FTP-Patator vs benign,0.743238,0.993822,0.993822,-,5556,100000,False,True
+Fwd Packet Length Max,FTP-Patator vs benign,0.744537,0.991069,0.991069,-,5556,100000,False,True
+Max Packet Length,FTP-Patator vs benign,0.734369,0.990387,0.990387,-,5556,100000,False,True
+Packet Length Std,FTP-Patator vs benign,0.687357,0.976756,0.976756,-,5556,100000,False,True
+Packet Length Variance,FTP-Patator vs benign,0.687357,0.976756,0.976756,-,5556,100000,False,True
+Bwd Packets/s,FTP-Patator vs benign,0.60128,0.968775,0.968775,-,5556,100000,False,True
+Init_Win_bytes_forward,FTP-Patator vs benign,0.724952,0.959521,0.959521,+,5556,100000,False,True
+Flow Bytes/s,FTP-Patator vs benign,0.503757,0.953001,0.953001,-,5556,100000,False,True
+Fwd Header Length,FTP-Patator vs benign,0.72267,0.943688,0.943688,+,5556,100000,False,False
+Bwd Packet Length Max,FTP-Patator vs benign,0.77425,0.935918,0.935918,-,5556,100000,False,False
+Bwd Packet Length Mean,FTP-Patator vs benign,0.77765,0.935792,0.935792,-,5556,100000,False,False
+Flow IAT Mean,FTP-Patator vs benign,0.511304,0.933424,0.933424,+,5556,100000,False,False
+Flow Packets/s,FTP-Patator vs benign,0.514212,0.931603,0.931603,-,5556,100000,False,False
+Bwd Header Length,FTP-Patator vs benign,0.546391,0.931202,0.931202,+,5556,100000,False,False
+Flow Duration,FTP-Patator vs benign,0.534226,0.931094,0.931094,+,5556,100000,False,False
+Total Length of Bwd Packets,FTP-Patator vs benign,0.643177,0.930951,0.930951,-,5556,100000,False,False
+Subflow Bwd Bytes,FTP-Patator vs benign,0.643177,0.930951,0.930951,-,5556,100000,False,False
+Fwd Packets/s,FTP-Patator vs benign,0.521098,0.924683,0.924683,-,5556,100000,False,False
+Flow IAT Max,FTP-Patator vs benign,0.513348,0.920941,0.920941,-,5556,100000,False,False
+Source Port,FTP-Patator vs benign,0.607276,0.905153,0.905153,+,5556,100000,True,False
+Total Length of Fwd Packets,FTP-Patator vs benign,0.528241,0.901783,0.901783,-,5556,100000,False,False
+Subflow Fwd Bytes,FTP-Patator vs benign,0.528241,0.901783,0.901783,-,5556,100000,False,False
+act_data_pkt_fwd,FTP-Patator vs benign,0.52903,0.895774,0.895774,+,5556,100000,False,False
+Flow IAT Std,FTP-Patator vs benign,0.557859,0.895095,0.895095,+,5556,100000,False,False
+Total Backward Packets,FTP-Patator vs benign,0.561451,0.893352,0.893352,+,5556,100000,False,False
+Bwd IAT Max,FTP-Patator vs benign,0.540573,0.888208,0.888208,+,5556,100000,False,False
+Init_Win_bytes_backward,FTP-Patator vs benign,0.603318,0.887414,0.887414,+,5556,100000,False,False
+Bwd IAT Mean,FTP-Patator vs benign,0.542298,0.883894,0.883894,+,5556,100000,False,False
+Bwd IAT Total,FTP-Patator vs benign,0.546075,0.883756,0.883756,+,5556,100000,False,False
+Total Fwd Packets,FTP-Patator vs benign,0.650805,0.875972,0.875972,+,5556,100000,False,False
+Fwd IAT Max,FTP-Patator vs benign,0.677194,0.868037,0.868037,+,5556,100000,False,False
+Fwd IAT Mean,FTP-Patator vs benign,0.685775,0.861321,0.861321,+,5556,100000,False,False
+Fwd IAT Total,FTP-Patator vs benign,0.698788,0.853645,0.853645,+,5556,100000,False,False
+Fwd IAT Min,FTP-Patator vs benign,0.690247,0.84018,0.84018,+,5556,100000,False,False
+Fwd IAT Std,FTP-Patator vs benign,0.585549,0.825478,0.825478,+,5556,100000,False,False
+Bwd Packet Length Std,FTP-Patator vs benign,0.571672,0.8088,0.8088,+,5556,100000,False,False
+Bwd IAT Std,FTP-Patator vs benign,0.633354,0.804903,0.804903,+,5556,100000,False,False
+Fwd Packet Length Min,FTP-Patator vs benign,0.787527,0.787362,0.787527,-,5556,100000,False,False
+Min Packet Length,FTP-Patator vs benign,0.784955,0.784462,0.784955,-,5556,100000,False,False
+min_seg_size_forward,FTP-Patator vs benign,0.74593,0.77173,0.77173,+,5556,100000,False,False
+Bwd Packet Length Min,FTP-Patator vs benign,0.76599,0.76531,0.76599,-,5556,100000,False,False
+Protocol,FTP-Patator vs benign,0.72637,0.726647,0.726647,-,5556,100000,False,False
+Fwd PSH Flags,FTP-Patator vs benign,0.719765,0.716529,0.719765,+,5556,100000,False,False
+Bwd IAT Min,FTP-Patator vs benign,0.592729,0.702892,0.702892,-,5556,100000,False,False
+Flow IAT Min,FTP-Patator vs benign,0.554594,0.695565,0.695565,-,5556,100000,False,False
+PSH Flag Count,FTP-Patator vs benign,0.63146,0.628157,0.63146,+,5556,100000,False,False
+ACK Flag Count,FTP-Patator vs benign,0.604255,0.601439,0.604255,+,5556,100000,False,False
+Idle Mean,FTP-Patator vs benign,0.57564,0.57549,0.57564,-,5556,100000,False,False
+Idle Max,FTP-Patator vs benign,0.57564,0.57549,0.57564,-,5556,100000,False,False
+Idle Min,FTP-Patator vs benign,0.57564,0.57549,0.57564,-,5556,100000,False,False
+Active Mean,FTP-Patator vs benign,0.57531,0.575177,0.57531,-,5556,100000,False,False
+Active Max,FTP-Patator vs benign,0.57531,0.575177,0.57531,-,5556,100000,False,False
+Active Min,FTP-Patator vs benign,0.57531,0.575177,0.57531,-,5556,100000,False,False
+Down/Up Ratio,FTP-Patator vs benign,0.572996,0.569945,0.572996,-,5556,100000,False,False
+URG Flag Count,FTP-Patator vs benign,0.5562,0.556187,0.5562,-,5556,100000,False,False
+Idle Std,FTP-Patator vs benign,0.54493,0.544668,0.54493,-,5556,100000,False,False
+Active Std,FTP-Patator vs benign,0.54465,0.544373,0.54465,-,5556,100000,False,False
+FIN Flag Count,FTP-Patator vs benign,0.509675,0.509472,0.509675,-,5556,100000,False,False
+RST Flag Count,FTP-Patator vs benign,0.50019,0.50017,0.50019,-,5556,100000,False,False
+ECE Flag Count,FTP-Patator vs benign,0.50019,0.50017,0.50019,-,5556,100000,False,False
+Packet Length Mean,PortScan vs benign,0.84894,0.99636,0.99636,-,100000,100000,False,True
+Average Packet Size,PortScan vs benign,0.845296,0.995749,0.995749,-,100000,100000,False,True
+Packet Length Std,PortScan vs benign,0.739971,0.99422,0.99422,-,100000,100000,False,True
+Packet Length Variance,PortScan vs benign,0.739971,0.99422,0.99422,-,100000,100000,False,True
+min_seg_size_forward,PortScan vs benign,0.736245,0.990128,0.990128,+,100000,100000,False,True
+Init_Win_bytes_backward,PortScan vs benign,0.602331,0.985261,0.985261,+,100000,100000,False,True
+Total Length of Bwd Packets,PortScan vs benign,0.719273,0.97372,0.97372,-,100000,100000,False,True
+Subflow Bwd Bytes,PortScan vs benign,0.719273,0.97372,0.97372,-,100000,100000,False,True
+Bwd Packet Length Mean,PortScan vs benign,0.712868,0.970093,0.970093,-,100000,100000,False,True
+Bwd Packet Length Max,PortScan vs benign,0.714613,0.969041,0.969041,-,100000,100000,False,True
+Bwd Packet Length Min,PortScan vs benign,0.505335,0.968553,0.968553,+,100000,100000,False,True
+Destination Port,PortScan vs benign,0.785377,0.966024,0.966024,+,100000,100000,True,True
+Total Length of Fwd Packets,PortScan vs benign,0.887269,0.964731,0.964731,-,100000,100000,False,True
+Subflow Fwd Bytes,PortScan vs benign,0.887269,0.964731,0.964731,-,100000,100000,False,True
+Init_Win_bytes_forward,PortScan vs benign,0.791844,0.964444,0.964444,+,100000,100000,False,True
+Fwd Packet Length Max,PortScan vs benign,0.887103,0.964161,0.964161,-,100000,100000,False,True
+Fwd Packet Length Mean,PortScan vs benign,0.886972,0.96394,0.96394,-,100000,100000,False,True
+Flow Bytes/s,PortScan vs benign,0.736394,0.961972,0.961972,+,100000,100000,False,True
+Bwd Packets/s,PortScan vs benign,0.943724,0.947096,0.947096,+,100000,100000,False,False
+Max Packet Length,PortScan vs benign,0.805154,0.946185,0.946185,-,100000,100000,False,False
+Flow Duration,PortScan vs benign,0.890403,0.945177,0.945177,-,100000,100000,False,False
+Flow IAT Max,PortScan vs benign,0.887587,0.94317,0.94317,-,100000,100000,False,False
+Flow Packets/s,PortScan vs benign,0.878115,0.931134,0.931134,+,100000,100000,False,False
+Bwd Header Length,PortScan vs benign,0.794856,0.930685,0.930685,-,100000,100000,False,False
+Fwd Packets/s,PortScan vs benign,0.869308,0.925091,0.925091,+,100000,100000,False,False
+Fwd Header Length,PortScan vs benign,0.778298,0.91787,0.91787,-,100000,100000,False,False
+Flow IAT Mean,PortScan vs benign,0.847465,0.905746,0.905746,-,100000,100000,False,False
+Fwd Packet Length Min,PortScan vs benign,0.676531,0.89908,0.89908,-,100000,100000,False,False
+Min Packet Length,PortScan vs benign,0.671633,0.897601,0.897601,-,100000,100000,False,False
+Flow IAT Min,PortScan vs benign,0.651713,0.883286,0.883286,+,100000,100000,False,False
+PSH Flag Count,PortScan vs benign,0.8808,0.88046,0.8808,+,100000,100000,False,False
+Total Fwd Packets,PortScan vs benign,0.874969,0.875673,0.875673,-,100000,100000,False,False
+Fwd IAT Max,PortScan vs benign,0.871456,0.874914,0.874914,-,100000,100000,False,False
+Fwd IAT Total,PortScan vs benign,0.871588,0.874848,0.874848,-,100000,100000,False,False
+Fwd IAT Mean,PortScan vs benign,0.871413,0.874058,0.874058,-,100000,100000,False,False
+Fwd IAT Min,PortScan vs benign,0.867611,0.871151,0.871151,-,100000,100000,False,False
+Total Backward Packets,PortScan vs benign,0.719596,0.854427,0.854427,-,100000,100000,False,False
+act_data_pkt_fwd,PortScan vs benign,0.831365,0.831066,0.831365,-,100000,100000,False,False
+Flow IAT Std,PortScan vs benign,0.824517,0.826352,0.826352,-,100000,100000,False,False
+Source Port,PortScan vs benign,0.51398,0.815349,0.815349,-,100000,100000,True,False
+Bwd IAT Mean,PortScan vs benign,0.78598,0.787249,0.787249,-,100000,100000,False,False
+Bwd IAT Max,PortScan vs benign,0.786013,0.787244,0.787244,-,100000,100000,False,False
+Bwd IAT Total,PortScan vs benign,0.78614,0.787161,0.787161,-,100000,100000,False,False
+Bwd IAT Min,PortScan vs benign,0.783883,0.785112,0.785112,-,100000,100000,False,False
+Protocol,PortScan vs benign,0.726373,0.726939,0.726939,-,100000,100000,False,False
+Down/Up Ratio,PortScan vs benign,0.665598,0.679057,0.679057,+,100000,100000,False,False
+Fwd IAT Std,PortScan vs benign,0.662254,0.661923,0.662254,-,100000,100000,False,False
+Fwd Packet Length Std,PortScan vs benign,0.660662,0.661555,0.661555,-,100000,100000,False,False
+ACK Flag Count,PortScan vs benign,0.64509,0.644612,0.64509,-,100000,100000,False,False
+Bwd Packet Length Std,PortScan vs benign,0.621735,0.621554,0.621735,-,100000,100000,False,False
+Bwd IAT Std,PortScan vs benign,0.621602,0.62143,0.621602,-,100000,100000,False,False
+Active Mean,PortScan vs benign,0.574424,0.575314,0.575314,-,100000,100000,False,False
+Active Max,PortScan vs benign,0.574424,0.575314,0.575314,-,100000,100000,False,False
+Active Min,PortScan vs benign,0.574422,0.574797,0.574797,-,100000,100000,False,False
+Idle Mean,PortScan vs benign,0.574507,0.574612,0.574612,-,100000,100000,False,False
+Idle Max,PortScan vs benign,0.57451,0.574601,0.574601,-,100000,100000,False,False
+Idle Min,PortScan vs benign,0.574503,0.574595,0.574595,-,100000,100000,False,False
+URG Flag Count,PortScan vs benign,0.55618,0.55603,0.55618,-,100000,100000,False,False
+Idle Std,PortScan vs benign,0.54493,0.544826,0.54493,-,100000,100000,False,False
+Active Std,PortScan vs benign,0.54465,0.544556,0.54465,-,100000,100000,False,False
+Fwd PSH Flags,PortScan vs benign,0.528705,0.528585,0.528705,-,100000,100000,False,False
+FIN Flag Count,PortScan vs benign,0.509675,0.509482,0.509675,-,100000,100000,False,False
+RST Flag Count,PortScan vs benign,0.50019,0.50017,0.50019,-,100000,100000,False,False
+ECE Flag Count,PortScan vs benign,0.50019,0.50017,0.50019,-,100000,100000,False,False
+Init_Win_bytes_backward,SSH-Patator vs benign,0.761799,0.997761,0.997761,+,4127,100000,False,True
+Destination Port,SSH-Patator vs benign,0.99447,0.99755,0.99755,-,4127,100000,True,True
+Source Port,SSH-Patator vs benign,0.602041,0.978196,0.978196,-,4127,100000,True,True
+Flow IAT Max,SSH-Patator vs benign,0.529966,0.967035,0.967035,-,4127,100000,False,True
+Flow Duration,SSH-Patator vs benign,0.506989,0.963073,0.963073,+,4127,100000,False,True
+Fwd Packet Length Max,SSH-Patator vs benign,0.505117,0.962287,0.962287,+,4127,100000,False,True
+Max Packet Length,SSH-Patator vs benign,0.551354,0.962234,0.962234,-,4127,100000,False,True
+Init_Win_bytes_forward,SSH-Patator vs benign,0.752695,0.961748,0.961748,+,4127,100000,False,True
+Bwd Header Length,SSH-Patator vs benign,0.661858,0.961062,0.961062,+,4127,100000,False,True
+Total Length of Fwd Packets,SSH-Patator vs benign,0.514864,0.959357,0.959357,+,4127,100000,False,True
+Subflow Fwd Bytes,SSH-Patator vs benign,0.514864,0.959357,0.959357,+,4127,100000,False,True
+Fwd Header Length,SSH-Patator vs benign,0.571096,0.952942,0.952942,+,4127,100000,False,True
+Flow Bytes/s,SSH-Patator vs benign,0.811295,0.952129,0.952129,-,4127,100000,False,True
+Bwd Packets/s,SSH-Patator vs benign,0.61775,0.94573,0.94573,+,4127,100000,False,False
+Fwd Packet Length Mean,SSH-Patator vs benign,0.506066,0.942,0.942,-,4127,100000,False,False
+Flow IAT Mean,SSH-Patator vs benign,0.513566,0.937186,0.937186,+,4127,100000,False,False
+Flow Packets/s,SSH-Patator vs benign,0.517122,0.934732,0.934732,+,4127,100000,False,False
+Bwd Packet Length Max,SSH-Patator vs benign,0.516236,0.933944,0.933944,-,4127,100000,False,False
+Total Length of Bwd Packets,SSH-Patator vs benign,0.508433,0.932541,0.932541,-,4127,100000,False,False
+Subflow Bwd Bytes,SSH-Patator vs benign,0.508433,0.932541,0.932541,-,4127,100000,False,False
+Packet Length Std,SSH-Patator vs benign,0.535844,0.93067,0.93067,-,4127,100000,False,False
+Packet Length Variance,SSH-Patator vs benign,0.535844,0.930667,0.930667,-,4127,100000,False,False
+Fwd IAT Max,SSH-Patator vs benign,0.532039,0.930126,0.930126,-,4127,100000,False,False
+Fwd IAT Mean,SSH-Patator vs benign,0.532599,0.9276,0.9276,-,4127,100000,False,False
+Fwd IAT Total,SSH-Patator vs benign,0.500791,0.927075,0.927075,+,4127,100000,False,False
+Total Backward Packets,SSH-Patator vs benign,0.6285,0.921647,0.921647,+,4127,100000,False,False
+Bwd Packet Length Mean,SSH-Patator vs benign,0.679132,0.920092,0.920092,-,4127,100000,False,False
+Fwd Packets/s,SSH-Patator vs benign,0.506502,0.920018,0.920018,+,4127,100000,False,False
+Packet Length Mean,SSH-Patator vs benign,0.604639,0.91669,0.91669,-,4127,100000,False,False
+Total Fwd Packets,SSH-Patator vs benign,0.539063,0.914723,0.914723,+,4127,100000,False,False
+act_data_pkt_fwd,SSH-Patator vs benign,0.570451,0.909458,0.909458,+,4127,100000,False,False
+Flow IAT Std,SSH-Patator vs benign,0.513506,0.907025,0.907025,-,4127,100000,False,False
+Average Packet Size,SSH-Patator vs benign,0.665581,0.900073,0.900073,-,4127,100000,False,False
+Bwd IAT Mean,SSH-Patator vs benign,0.537795,0.88799,0.88799,+,4127,100000,False,False
+Bwd IAT Max,SSH-Patator vs benign,0.538441,0.886705,0.886705,+,4127,100000,False,False
+Bwd IAT Total,SSH-Patator vs benign,0.549865,0.883184,0.883184,+,4127,100000,False,False
+Fwd IAT Min,SSH-Patator vs benign,0.512332,0.876124,0.876124,-,4127,100000,False,False
+Fwd IAT Std,SSH-Patator vs benign,0.584288,0.826358,0.826358,+,4127,100000,False,False
+Fwd Packet Length Std,SSH-Patator vs benign,0.60652,0.814366,0.814366,+,4127,100000,False,False
+Bwd IAT Std,SSH-Patator vs benign,0.631417,0.805793,0.805793,+,4127,100000,False,False
+Bwd Packet Length Std,SSH-Patator vs benign,0.59826,0.804263,0.804263,+,4127,100000,False,False
+Fwd Packet Length Min,SSH-Patator vs benign,0.78818,0.787696,0.78818,-,4127,100000,False,False
+Min Packet Length,SSH-Patator vs benign,0.784955,0.78446,0.784955,-,4127,100000,False,False
+Flow IAT Min,SSH-Patator vs benign,0.54976,0.773678,0.773678,+,4127,100000,False,False
+min_seg_size_forward,SSH-Patator vs benign,0.745816,0.771339,0.771339,+,4127,100000,False,False
+Bwd Packet Length Min,SSH-Patator vs benign,0.76599,0.765285,0.76599,-,4127,100000,False,False
+Protocol,SSH-Patator vs benign,0.72637,0.726647,0.726647,-,4127,100000,False,False
+URG Flag Count,SSH-Patator vs benign,0.691438,0.68892,0.691438,+,4127,100000,False,False
+Down/Up Ratio,SSH-Patator vs benign,0.667487,0.68118,0.68118,+,4127,100000,False,False
+Bwd IAT Min,SSH-Patator vs benign,0.571187,0.675616,0.675616,-,4127,100000,False,False
+PSH Flag Count,SSH-Patator vs benign,0.632434,0.629872,0.632434,+,4127,100000,False,False
+ACK Flag Count,SSH-Patator vs benign,0.603281,0.600222,0.603281,+,4127,100000,False,False
+Idle Mean,SSH-Patator vs benign,0.57564,0.575421,0.57564,-,4127,100000,False,False
+Idle Max,SSH-Patator vs benign,0.57564,0.575421,0.57564,-,4127,100000,False,False
+Idle Min,SSH-Patator vs benign,0.57564,0.575421,0.57564,-,4127,100000,False,False
+Active Mean,SSH-Patator vs benign,0.57531,0.575108,0.57531,-,4127,100000,False,False
+Active Max,SSH-Patator vs benign,0.57531,0.575108,0.57531,-,4127,100000,False,False
+Active Min,SSH-Patator vs benign,0.57531,0.575108,0.57531,-,4127,100000,False,False
+Idle Std,SSH-Patator vs benign,0.54493,0.544665,0.54493,-,4127,100000,False,False
+Active Std,SSH-Patator vs benign,0.54465,0.544373,0.54465,-,4127,100000,False,False
+Fwd PSH Flags,SSH-Patator vs benign,0.528342,0.528288,0.528342,-,4127,100000,False,False
+FIN Flag Count,SSH-Patator vs benign,0.509675,0.509392,0.509675,-,4127,100000,False,False
+RST Flag Count,SSH-Patator vs benign,0.50019,0.500089,0.50019,-,4127,100000,False,False
+ECE Flag Count,SSH-Patator vs benign,0.50019,0.500089,0.50019,-,4127,100000,False,False
+Init_Win_bytes_backward,Web Attack - Brute Force vs benign,0.920057,0.989489,0.989489,+,1054,100000,False,True
+Fwd IAT Min,Web Attack - Brute Force vs benign,0.813607,0.972522,0.972522,+,1054,100000,False,True
+Fwd Header Length,Web Attack - Brute Force vs benign,0.715368,0.967333,0.967333,+,1054,100000,False,True
+Flow IAT Max,Web Attack - Brute Force vs benign,0.771073,0.965631,0.965631,+,1054,100000,False,True
+Fwd Packets/s,Web Attack - Brute Force vs benign,0.79673,0.963603,0.963603,-,1054,100000,False,True
+Fwd IAT Mean,Web Attack - Brute Force vs benign,0.803736,0.96252,0.96252,+,1054,100000,False,True
+Flow Duration,Web Attack - Brute Force vs benign,0.767099,0.960937,0.960937,+,1054,100000,False,True
+Fwd IAT Max,Web Attack - Brute Force vs benign,0.775738,0.957726,0.957726,+,1054,100000,False,True
+Flow IAT Std,Web Attack - Brute Force vs benign,0.806672,0.956079,0.956079,+,1054,100000,False,True
+Flow Packets/s,Web Attack - Brute Force vs benign,0.80484,0.955745,0.955745,-,1054,100000,False,True
+Bwd Packets/s,Web Attack - Brute Force vs benign,0.709125,0.954778,0.954778,-,1054,100000,False,True
+Fwd IAT Total,Web Attack - Brute Force vs benign,0.771681,0.952894,0.952894,+,1054,100000,False,True
+Flow IAT Mean,Web Attack - Brute Force vs benign,0.815102,0.951919,0.951919,+,1054,100000,False,True
+Flow IAT Min,Web Attack - Brute Force vs benign,0.744502,0.948912,0.948912,+,1054,100000,False,False
+Destination Port,Web Attack - Brute Force vs benign,0.50195,0.947033,0.947033,-,1054,100000,True,False
+Init_Win_bytes_forward,Web Attack - Brute Force vs benign,0.870579,0.944141,0.944141,+,1054,100000,False,False
+Fwd IAT Std,Web Attack - Brute Force vs benign,0.839389,0.938815,0.938815,+,1054,100000,False,False
+Total Fwd Packets,Web Attack - Brute Force vs benign,0.663227,0.932146,0.932146,+,1054,100000,False,False
+Fwd Packet Length Max,Web Attack - Brute Force vs benign,0.840405,0.923123,0.923123,-,1054,100000,False,False
+Packet Length Mean,Web Attack - Brute Force vs benign,0.84904,0.918988,0.918988,-,1054,100000,False,False
+Total Length of Fwd Packets,Web Attack - Brute Force vs benign,0.840033,0.917896,0.917896,-,1054,100000,False,False
+Subflow Fwd Bytes,Web Attack - Brute Force vs benign,0.840033,0.917896,0.917896,-,1054,100000,False,False
+Fwd Packet Length Mean,Web Attack - Brute Force vs benign,0.835651,0.916444,0.916444,-,1054,100000,False,False
+Average Packet Size,Web Attack - Brute Force vs benign,0.85209,0.916284,0.916284,-,1054,100000,False,False
+Max Packet Length,Web Attack - Brute Force vs benign,0.851769,0.914498,0.914498,-,1054,100000,False,False
+Flow Bytes/s,Web Attack - Brute Force vs benign,0.899887,0.910147,0.910147,-,1054,100000,False,False
+Bwd Header Length,Web Attack - Brute Force vs benign,0.519783,0.884049,0.884049,+,1054,100000,False,False
+Bwd Packet Length Max,Web Attack - Brute Force vs benign,0.799807,0.864015,0.864015,-,1054,100000,False,False
+Total Length of Bwd Packets,Web Attack - Brute Force vs benign,0.795414,0.863249,0.863249,-,1054,100000,False,False
+Subflow Bwd Bytes,Web Attack - Brute Force vs benign,0.795414,0.863249,0.863249,-,1054,100000,False,False
+Packet Length Std,Web Attack - Brute Force vs benign,0.802342,0.857668,0.857668,-,1054,100000,False,False
+Packet Length Variance,Web Attack - Brute Force vs benign,0.802342,0.857666,0.857666,-,1054,100000,False,False
+Bwd Packet Length Mean,Web Attack - Brute Force vs benign,0.80777,0.856802,0.856802,-,1054,100000,False,False
+Total Backward Packets,Web Attack - Brute Force vs benign,0.657533,0.845949,0.845949,-,1054,100000,False,False
+PSH Flag Count,Web Attack - Brute Force vs benign,0.833007,0.830067,0.833007,+,1054,100000,False,False
+Source Port,Web Attack - Brute Force vs benign,0.535417,0.82142,0.82142,-,1054,100000,True,False
+act_data_pkt_fwd,Web Attack - Brute Force vs benign,0.770683,0.815867,0.815867,-,1054,100000,False,False
+Fwd Packet Length Min,Web Attack - Brute Force vs benign,0.78818,0.787596,0.78818,-,1054,100000,False,False
+Min Packet Length,Web Attack - Brute Force vs benign,0.784955,0.784326,0.784955,-,1054,100000,False,False
+Bwd IAT Max,Web Attack - Brute Force vs benign,0.720725,0.778739,0.778739,-,1054,100000,False,False
+Bwd IAT Mean,Web Attack - Brute Force vs benign,0.719354,0.775806,0.775806,-,1054,100000,False,False
+Bwd IAT Total,Web Attack - Brute Force vs benign,0.718676,0.77258,0.77258,-,1054,100000,False,False
+min_seg_size_forward,Web Attack - Brute Force vs benign,0.74593,0.771874,0.771874,+,1054,100000,False,False
+Bwd Packet Length Min,Web Attack - Brute Force vs benign,0.76599,0.765162,0.76599,-,1054,100000,False,False
+Bwd IAT Min,Web Attack - Brute Force vs benign,0.72174,0.757307,0.757307,-,1054,100000,False,False
+Down/Up Ratio,Web Attack - Brute Force vs benign,0.752816,0.748815,0.752816,-,1054,100000,False,False
+Protocol,Web Attack - Brute Force vs benign,0.72637,0.726474,0.726474,-,1054,100000,False,False
+Fwd Packet Length Std,Web Attack - Brute Force vs benign,0.600562,0.635588,0.635588,-,1054,100000,False,False
+Bwd IAT Std,Web Attack - Brute Force vs benign,0.569289,0.604567,0.604567,-,1054,100000,False,False
+Bwd Packet Length Std,Web Attack - Brute Force vs benign,0.575052,0.603973,0.603973,-,1054,100000,False,False
+ACK Flag Count,Web Attack - Brute Force vs benign,0.597292,0.594382,0.597292,-,1054,100000,False,False
+Idle Mean,Web Attack - Brute Force vs benign,0.57564,0.575298,0.57564,-,1054,100000,False,False
+Idle Max,Web Attack - Brute Force vs benign,0.57564,0.575298,0.57564,-,1054,100000,False,False
+Idle Min,Web Attack - Brute Force vs benign,0.57564,0.575298,0.57564,-,1054,100000,False,False
+Active Mean,Web Attack - Brute Force vs benign,0.57531,0.574961,0.57531,-,1054,100000,False,False
+Active Max,Web Attack - Brute Force vs benign,0.57531,0.574961,0.57531,-,1054,100000,False,False
+Active Min,Web Attack - Brute Force vs benign,0.57531,0.574961,0.57531,-,1054,100000,False,False
+Idle Std,Web Attack - Brute Force vs benign,0.54493,0.544707,0.54493,-,1054,100000,False,False
+Active Std,Web Attack - Brute Force vs benign,0.54465,0.544469,0.54465,-,1054,100000,False,False
+Fwd PSH Flags,Web Attack - Brute Force vs benign,0.528705,0.52823,0.528705,-,1054,100000,False,False
+FIN Flag Count,Web Attack - Brute Force vs benign,0.509675,0.509212,0.509675,-,1054,100000,False,False
+URG Flag Count,Web Attack - Brute Force vs benign,0.508287,0.505454,0.508287,-,1054,100000,False,False
+RST Flag Count,Web Attack - Brute Force vs benign,0.50019,0.499861,0.50019,-,1054,100000,False,False
+ECE Flag Count,Web Attack - Brute Force vs benign,0.50019,0.499861,0.50019,-,1054,100000,False,False
+Fwd IAT Min,Web Attack - XSS vs benign,0.878604,0.982452,0.982452,+,456,100000,False,True
+Fwd Header Length,Web Attack - XSS vs benign,0.755656,0.979028,0.979028,+,456,100000,False,True
+Init_Win_bytes_backward,Web Attack - XSS vs benign,0.92384,0.978238,0.978238,+,456,100000,False,True
+Flow IAT Std,Web Attack - XSS vs benign,0.851355,0.975988,0.975988,+,456,100000,False,True
+Fwd IAT Mean,Web Attack - XSS vs benign,0.865307,0.973964,0.973964,+,456,100000,False,True
+Fwd Packets/s,Web Attack - XSS vs benign,0.846173,0.973437,0.973437,-,456,100000,False,True
+Bwd Packets/s,Web Attack - XSS vs benign,0.778624,0.973272,0.973272,-,456,100000,False,True
+Flow Packets/s,Web Attack - XSS vs benign,0.857303,0.972225,0.972225,-,456,100000,False,True
+Flow IAT Mean,Web Attack - XSS vs benign,0.864362,0.970697,0.970697,+,456,100000,False,True
+Fwd IAT Std,Web Attack - XSS vs benign,0.875012,0.969646,0.969646,+,456,100000,False,True
+Fwd IAT Max,Web Attack - XSS vs benign,0.831652,0.968891,0.968891,+,456,100000,False,True
+Flow IAT Max,Web Attack - XSS vs benign,0.8189,0.966682,0.966682,+,456,100000,False,True
+Fwd IAT Total,Web Attack - XSS vs benign,0.82463,0.960278,0.960278,+,456,100000,False,True
+Flow IAT Min,Web Attack - XSS vs benign,0.760086,0.959513,0.959513,+,456,100000,False,True
+Flow Duration,Web Attack - XSS vs benign,0.809081,0.957027,0.957027,+,456,100000,False,True
+Init_Win_bytes_forward,Web Attack - XSS vs benign,0.889099,0.95091,0.95091,+,456,100000,False,True
+Total Fwd Packets,Web Attack - XSS vs benign,0.699437,0.949417,0.949417,+,456,100000,False,False
+Destination Port,Web Attack - XSS vs benign,0.50195,0.947067,0.947067,-,456,100000,True,False
+Total Length of Fwd Packets,Web Attack - XSS vs benign,0.894849,0.92557,0.92557,-,456,100000,False,False
+Subflow Fwd Bytes,Web Attack - XSS vs benign,0.894849,0.92557,0.92557,-,456,100000,False,False
+Average Packet Size,Web Attack - XSS vs benign,0.897661,0.924289,0.924289,-,456,100000,False,False
+Max Packet Length,Web Attack - XSS vs benign,0.898453,0.924259,0.924259,-,456,100000,False,False
+Packet Length Mean,Web Attack - XSS vs benign,0.897651,0.924241,0.924241,-,456,100000,False,False
+Fwd Packet Length Mean,Web Attack - XSS vs benign,0.8951,0.923471,0.923471,-,456,100000,False,False
+Fwd Packet Length Max,Web Attack - XSS vs benign,0.896898,0.921465,0.921465,-,456,100000,False,False
+Flow Bytes/s,Web Attack - XSS vs benign,0.916342,0.920793,0.920793,-,456,100000,False,False
+Bwd Header Length,Web Attack - XSS vs benign,0.503989,0.904579,0.904579,-,456,100000,False,False
+Total Length of Bwd Packets,Web Attack - XSS vs benign,0.842879,0.872049,0.872049,-,456,100000,False,False
+Subflow Bwd Bytes,Web Attack - XSS vs benign,0.842879,0.872049,0.872049,-,456,100000,False,False
+Bwd Packet Length Mean,Web Attack - XSS vs benign,0.842584,0.870597,0.870597,-,456,100000,False,False
+Packet Length Std,Web Attack - XSS vs benign,0.845514,0.867932,0.867932,-,456,100000,False,False
+Packet Length Variance,Web Attack - XSS vs benign,0.845514,0.86793,0.86793,-,456,100000,False,False
+Bwd Packet Length Max,Web Attack - XSS vs benign,0.843666,0.866468,0.866468,-,456,100000,False,False
+PSH Flag Count,Web Attack - XSS vs benign,0.864473,0.86226,0.864473,+,456,100000,False,False
+Source Port,Web Attack - XSS vs benign,0.655257,0.858034,0.858034,+,456,100000,True,False
+Total Backward Packets,Web Attack - XSS vs benign,0.702196,0.845005,0.845005,-,456,100000,False,False
+act_data_pkt_fwd,Web Attack - XSS vs benign,0.805528,0.83193,0.83193,-,456,100000,False,False
+Down/Up Ratio,Web Attack - XSS vs benign,0.819581,0.817286,0.819581,-,456,100000,False,False
+Fwd Packet Length Min,Web Attack - XSS vs benign,0.78818,0.78773,0.78818,-,456,100000,False,False
+Min Packet Length,Web Attack - XSS vs benign,0.784955,0.784462,0.784955,-,456,100000,False,False
+Bwd IAT Total,Web Attack - XSS vs benign,0.763268,0.77946,0.77946,-,456,100000,False,False
+Bwd IAT Mean,Web Attack - XSS vs benign,0.76483,0.777939,0.777939,-,456,100000,False,False
+Bwd IAT Max,Web Attack - XSS vs benign,0.764963,0.777454,0.777454,-,456,100000,False,False
+Bwd IAT Min,Web Attack - XSS vs benign,0.765471,0.771895,0.771895,-,456,100000,False,False
+min_seg_size_forward,Web Attack - XSS vs benign,0.74593,0.77173,0.77173,+,456,100000,False,False
+Bwd Packet Length Min,Web Attack - XSS vs benign,0.76599,0.76531,0.76599,-,456,100000,False,False
+Protocol,Web Attack - XSS vs benign,0.72637,0.726647,0.726647,-,456,100000,False,False
+Fwd Packet Length Std,Web Attack - XSS vs benign,0.641058,0.64803,0.64803,-,456,100000,False,False
+ACK Flag Count,Web Attack - XSS vs benign,0.628758,0.626198,0.628758,-,456,100000,False,False
+Bwd IAT Std,Web Attack - XSS vs benign,0.604091,0.61479,0.61479,-,456,100000,False,False
+Bwd Packet Length Std,Web Attack - XSS vs benign,0.604586,0.606504,0.606504,-,456,100000,False,False
+Idle Mean,Web Attack - XSS vs benign,0.57564,0.57549,0.57564,-,456,100000,False,False
+Idle Max,Web Attack - XSS vs benign,0.57564,0.57549,0.57564,-,456,100000,False,False
+Idle Min,Web Attack - XSS vs benign,0.57564,0.57549,0.57564,-,456,100000,False,False
+Active Mean,Web Attack - XSS vs benign,0.57531,0.575177,0.57531,-,456,100000,False,False
+Active Max,Web Attack - XSS vs benign,0.57531,0.575177,0.57531,-,456,100000,False,False
+Active Min,Web Attack - XSS vs benign,0.57531,0.575177,0.57531,-,456,100000,False,False
+URG Flag Count,Web Attack - XSS vs benign,0.552911,0.551449,0.552911,-,456,100000,False,False
+Idle Std,Web Attack - XSS vs benign,0.54493,0.544668,0.54493,-,456,100000,False,False
+Active Std,Web Attack - XSS vs benign,0.54465,0.544373,0.54465,-,456,100000,False,False
+Fwd PSH Flags,Web Attack - XSS vs benign,0.528705,0.528508,0.528705,-,456,100000,False,False
+FIN Flag Count,Web Attack - XSS vs benign,0.509675,0.509472,0.509675,-,456,100000,False,False
+RST Flag Count,Web Attack - XSS vs benign,0.50019,0.50017,0.50019,-,456,100000,False,False
+ECE Flag Count,Web Attack - XSS vs benign,0.50019,0.50017,0.50019,-,456,100000,False,False
+Average Packet Size,binary,0.523789,0.946491,0.946491,+,317298,100000,False,False
+Packet Length Std,binary,0.567057,0.94229,0.94229,+,317298,100000,False,False
+Packet Length Variance,binary,0.567057,0.94229,0.94229,+,317298,100000,False,False
+Total Length of Bwd Packets,binary,0.551326,0.938689,0.938689,+,317298,100000,False,False
+Subflow Bwd Bytes,binary,0.551326,0.938689,0.938689,+,317298,100000,False,False
+Bwd Packet Length Mean,binary,0.564953,0.934873,0.934873,+,317298,100000,False,False
+Max Packet Length,binary,0.546126,0.932372,0.932372,+,317298,100000,False,False
+Bwd Packet Length Max,binary,0.567509,0.928101,0.928101,+,317298,100000,False,False
+Packet Length Mean,binary,0.527051,0.920056,0.920056,+,317298,100000,False,False
+Fwd Packet Length Max,binary,0.656789,0.903926,0.903926,-,317298,100000,False,False
+Total Length of Fwd Packets,binary,0.648106,0.883042,0.883042,-,317298,100000,False,False
+Subflow Fwd Bytes,binary,0.648106,0.883042,0.883042,-,317298,100000,False,False
+Destination Port,binary,0.575025,0.879156,0.879156,+,317298,100000,True,False
+Init_Win_bytes_backward,binary,0.612377,0.865435,0.865435,+,317298,100000,False,False
+Flow Duration,binary,0.544194,0.828505,0.828505,+,317298,100000,False,False
+Bwd Header Length,binary,0.522321,0.82835,0.82835,-,317298,100000,False,False
+Flow IAT Max,binary,0.561965,0.817983,0.817983,+,317298,100000,False,False
+Fwd Packet Length Mean,binary,0.671077,0.813435,0.813435,-,317298,100000,False,False
+Bwd Packets/s,binary,0.539272,0.808447,0.808447,-,317298,100000,False,False
+Flow Packets/s,binary,0.558418,0.797927,0.797927,-,317298,100000,False,False
+Fwd Packet Length Min,binary,0.722495,0.795476,0.795476,-,317298,100000,False,False
+Total Backward Packets,binary,0.50438,0.793876,0.793876,-,317298,100000,False,False
+Min Packet Length,binary,0.72146,0.793281,0.793281,-,317298,100000,False,False
+Fwd Packets/s,binary,0.562177,0.793112,0.793112,-,317298,100000,False,False
+Init_Win_bytes_forward,binary,0.694368,0.790648,0.790648,+,317298,100000,False,False
+Bwd Packet Length Min,binary,0.679589,0.788838,0.788838,-,317298,100000,False,False
+Flow Bytes/s,binary,0.540655,0.785293,0.785293,-,317298,100000,False,False
+Bwd Packet Length Std,binary,0.660018,0.78077,0.78077,+,317298,100000,False,False
+Bwd IAT Max,binary,0.510816,0.78004,0.78004,+,317298,100000,False,False
+Source Port,binary,0.515402,0.769753,0.769753,-,317298,100000,True,False
+Total Fwd Packets,binary,0.532386,0.767175,0.767175,+,317298,100000,False,False
+Bwd IAT Mean,binary,0.509121,0.763038,0.763038,+,317298,100000,False,False
+Fwd IAT Total,binary,0.573539,0.75382,0.75382,+,317298,100000,False,False
+Fwd IAT Mean,binary,0.586615,0.752309,0.752309,+,317298,100000,False,False
+Fwd IAT Max,binary,0.590045,0.748491,0.748491,+,317298,100000,False,False
+Flow IAT Mean,binary,0.565389,0.746346,0.746346,+,317298,100000,False,False
+Bwd IAT Total,binary,0.503206,0.73933,0.73933,+,317298,100000,False,False
+Flow IAT Std,binary,0.590192,0.73928,0.73928,+,317298,100000,False,False
+Protocol,binary,0.726371,0.726991,0.726991,-,317298,100000,False,False
+Flow IAT Min,binary,0.52967,0.715561,0.715561,-,317298,100000,False,False
+Fwd Header Length,binary,0.574563,0.712311,0.712311,+,317298,100000,False,False
+act_data_pkt_fwd,binary,0.511089,0.703243,0.703243,-,317298,100000,False,False
+Active Min,binary,0.579271,0.699605,0.699605,+,317298,100000,False,False
+Active Mean,binary,0.579206,0.698547,0.698547,+,317298,100000,False,False
+Bwd IAT Min,binary,0.514729,0.698499,0.698499,-,317298,100000,False,False
+Bwd IAT Std,binary,0.605613,0.692313,0.692313,+,317298,100000,False,False
+Fwd IAT Std,binary,0.653666,0.687354,0.687354,+,317298,100000,False,False
+Active Max,binary,0.578726,0.684286,0.684286,+,317298,100000,False,False
+min_seg_size_forward,binary,0.547951,0.676122,0.676122,+,317298,100000,False,False
+Idle Mean,binary,0.620787,0.676083,0.676083,+,317298,100000,False,False
+Idle Max,binary,0.621433,0.673437,0.673437,+,317298,100000,False,False
+Fwd IAT Min,binary,0.567471,0.659438,0.659438,-,317298,100000,False,False
+Fwd Packet Length Std,binary,0.557753,0.658339,0.658339,+,317298,100000,False,False
+PSH Flag Count,binary,0.645173,0.644472,0.645173,+,317298,100000,False,False
+Idle Min,binary,0.619119,0.637923,0.637923,+,317298,100000,False,False
+Down/Up Ratio,binary,0.508436,0.561537,0.561537,-,317298,100000,False,False
+Idle Std,binary,0.52116,0.559393,0.559393,-,317298,100000,False,False
+URG Flag Count,binary,0.550801,0.550479,0.550801,-,317298,100000,False,False
+ACK Flag Count,binary,0.550578,0.549777,0.550578,+,317298,100000,False,False
+Active Std,binary,0.542037,0.545214,0.545214,-,317298,100000,False,False
+FIN Flag Count,binary,0.530538,0.530401,0.530538,+,317298,100000,False,False
+Fwd PSH Flags,binary,0.521661,0.521252,0.521661,-,317298,100000,False,False
+RST Flag Count,binary,0.50019,0.500153,0.50019,-,317298,100000,False,False
+ECE Flag Count,binary,0.50019,0.500153,0.50019,-,317298,100000,False,False

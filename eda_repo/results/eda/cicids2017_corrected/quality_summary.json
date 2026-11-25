@@ -1,0 +1,39 @@
+{
+  "rows": 2100814,
+  "duplicate_rows": 15885,
+  "conflicting_rows": 4,
+  "conflicting_rows_per_class": {
+    "PortScan": 2,
+    "BENIGN": 2
+  },
+  "duplicate_rows_per_class": {
+    "BENIGN": 15850,
+    "DoS slowloris": 27,
+    "PortScan": 7,
+    "Bot - Attempted": 1
+  },
+  "columns_with_nan": [
+    "Flow Bytes/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min"
+  ],
+  "columns_with_inf": [
+    "Flow Bytes/s",
+    "Flow Packets/s"
+  ],
+  "columns_with_negative": [
+    "Flow Duration",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Max",
+    "Flow IAT Min"
+  ],
+  "constant_columns": [],
+  "duplicate_columns": {
+    "Average Packet Size": "Packet Length Mean",
+    "Fwd Segment Size Avg": "Fwd Packet Length Mean",
+    "Bwd Segment Size Avg": "Bwd Packet Length Mean"
+  }
+}

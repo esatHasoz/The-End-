@@ -1,0 +1,26 @@
+class,n,train,val,test,gap,method,ok
+BENIGN,1641843,1149290,246276,229859,16418,time_order,True
+Bot,738,516,110,106,6,time_order,True
+Bot - Attempted,1469,1028,220,207,14,time_order,True
+DDoS,95123,66586,14268,13319,950,time_order,True
+DoS GoldenEye,7567,5296,1135,1062,74,time_order,True
+DoS GoldenEye - Attempted,80,58,8,8,6,time_blocks,False
+DoS Hulk,158469,110928,23770,22187,1584,time_order,True
+DoS Hulk - Attempted,593,415,88,86,4,time_order,True
+DoS Slowhttptest,1742,1219,261,246,16,time_order,True
+DoS Slowhttptest - Attempted,3369,2358,505,474,32,time_order,True
+DoS slowloris,3974,2781,596,559,38,time_order,True
+DoS slowloris - Attempted,1731,1211,259,245,16,time_order,True
+FTP-Patator,3973,2781,595,559,38,time_order,True
+FTP-Patator - Attempted,11,2,3,2,4,time_blocks,False
+Heartbleed,11,2,2,3,4,time_blocks,False
+Infiltration,32,9,10,9,4,time_blocks,False
+Infiltration - Attempted,16,5,4,3,4,time_blocks,False
+PortScan,159144,111400,23871,22283,1590,time_order,True
+SSH-Patator,2980,2086,447,419,28,time_order,True
+SSH-Patator - Attempted,8,1,1,2,4,time_blocks,False
+Web Attack - Brute Force,151,103,18,16,14,time_blocks,False
+Web Attack - Brute Force - Attempted,1214,849,182,171,12,time_order,True
+Web Attack - Sql Injection,12,3,2,3,4,time_blocks,False
+Web Attack - XSS,27,8,7,8,4,time_blocks,False
+Web Attack - XSS - Attempted,652,456,97,93,6,time_order,True

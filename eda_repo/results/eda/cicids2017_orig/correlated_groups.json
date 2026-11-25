@@ -1,0 +1,65 @@
+{
+  "threshold": 0.95,
+  "groups": [
+    [
+      "Average Packet Size",
+      "Bwd Packet Length Max",
+      "Bwd Packet Length Mean",
+      "Max Packet Length",
+      "Packet Length Mean",
+      "Packet Length Std",
+      "Packet Length Variance",
+      "Subflow Bwd Bytes",
+      "Total Length of Bwd Packets"
+    ],
+    [
+      "Flow Duration",
+      "Flow IAT Max",
+      "Flow IAT Mean",
+      "Flow Packets/s",
+      "Fwd Packets/s"
+    ],
+    [
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Mean",
+      "Subflow Fwd Bytes",
+      "Total Length of Fwd Packets"
+    ],
+    [
+      "Fwd IAT Max",
+      "Fwd IAT Mean",
+      "Fwd IAT Total"
+    ],
+    [
+      "Bwd IAT Max",
+      "Bwd IAT Mean",
+      "Bwd IAT Total"
+    ],
+    [
+      "Active Max",
+      "Active Mean",
+      "Active Min"
+    ],
+    [
+      "Idle Max",
+      "Idle Mean",
+      "Idle Min"
+    ],
+    [
+      "Fwd Header Length",
+      "Total Fwd Packets"
+    ],
+    [
+      "Bwd Header Length",
+      "Total Backward Packets"
+    ],
+    [
+      "Fwd Packet Length Min",
+      "Min Packet Length"
+    ],
+    [
+      "ECE Flag Count",
+      "RST Flag Count"
+    ]
+  ]
+}
